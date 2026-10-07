@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-azeret-mono: 'Azeret Mono', monospace;
+  --font-bagel-fat-one: 'Bagel Fat One', sans-serif;
+  --font-edu-nsw-act-cursive: 'Edu NSW ACT Cursive', cursive;
+  --font-monomaniac-one: 'Monomaniac One', sans-serif;
+  --font-monoton: 'Monoton', sans-serif;
+  --font-mozilla-headline: 'Mozilla Headline', sans-serif;
+  --font-noto-sans-kr: 'Noto Sans KR', sans-serif;
+  --font-oswald: 'Oswald', sans-serif;
+  --font-poetsen-one: 'Poetsen One', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+}
