@@ -59,7 +59,7 @@ const initialDeliveries: Delivery[] = [
 ];
 
 const MetricCard = ({ label, value, note }: Metric) => (
-    <li className="rounded-[8px] border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:px-5 lg:py-6">
+    <li className="rounded-lg border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:px-5 lg:py-6">
         <p className="text-xs font-medium text-[#7B8A91] lg:text-sm">{label}</p>
         <p className="mt-4 text-2xl font-semibold leading-none text-[#22343A] lg:mt-5 lg:text-4xl">{value}</p>
         <p className="mt-4 text-[10px] font-medium text-[#7B8A91] lg:mt-5 lg:text-xs">{note}</p>
@@ -80,6 +80,7 @@ const PrimaryButton = ({ children, onClick }: { children: ReactNode; onClick?: (
 const Deliveries = () => {
     const [deliveryItems, setDeliveryItems] = useState<Delivery[]>(initialDeliveries);
     const [isScheduleModalOpen, setIsScheduleModalOpen] = useState(false);
+    const [searchQuery, setSearchQuery] = useState("");
 
     // Form inputs state
     const [formData, setFormData] = useState({
@@ -151,6 +152,20 @@ const Deliveries = () => {
         setIsScheduleModalOpen(false);
     };
 
+    // Filter deliveries based on search query
+    const filteredDeliveries = deliveryItems.filter((delivery) => {
+        if (!searchQuery.trim()) return true;
+        const q = searchQuery.toLowerCase();
+        return (
+            delivery.id.toLowerCase().includes(q) ||
+            delivery.recipient.toLowerCase().includes(q) ||
+            delivery.destination.toLowerCase().includes(q) ||
+            delivery.carrier.toLowerCase().includes(q) ||
+            delivery.eta.toLowerCase().includes(q) ||
+            delivery.items.toLowerCase().includes(q)
+        );
+    });
+
     return (
         <div className="min-h-screen bg-[#F4F7F8] lg:flex">
             <Navbar />
@@ -172,14 +187,16 @@ const Deliveries = () => {
                     ))}
                 </ul>
 
-                <section className="mt-5 rounded-[8px] border border-[#DDE5E8] bg-white px-3 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
+                <section className="mt-5 rounded-lg border border-[#DDE5E8] bg-white px-3 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
                     <h2 className="text-base font-semibold leading-none lg:text-lg">All deliveries</h2>
 
                     <div className="mt-5 flex flex-col gap-3 lg:mt-6 lg:flex-row">
-                        <label className="flex min-w-0 flex-1 items-center gap-3 rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-[#9AA6AB]">
+                        <label className="flex min-w-0 flex-1 items-center gap-3 rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-[#9AA6AB]">
                             <Search className="size-4 shrink-0" aria-hidden="true" />
                             <input
                                 type="search"
+                                value={searchQuery}
+                                onChange={(e) => setSearchQuery(e.target.value)}
                                 placeholder="Search deliveries..."
                                 className="min-w-0 flex-1 bg-transparent text-xs font-medium outline-none placeholder:text-[#9AA6AB] lg:text-sm"
                                 aria-label="Search deliveries"
@@ -192,7 +209,7 @@ const Deliveries = () => {
                         </label>
                         <button
                             type="button"
-                            className="flex items-center justify-between rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-xs font-medium text-[#9AA6AB] lg:w-[190px] lg:text-sm"
+                            className="flex items-center justify-between rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-xs font-medium text-[#9AA6AB] lg:w-[190px] lg:text-sm"
                         >
                             All statuses
                             <ChevronDown className="size-4" aria-hidden="true" />
@@ -212,26 +229,35 @@ const Deliveries = () => {
                                 </tr>
                             </thead>
                             <tbody className="text-[#22343A]">
-                                {deliveryItems.map((delivery) => (
-                                    <tr key={delivery.id}>
-                                        <td className="px-3 py-4 font-semibold lg:px-4 lg:py-5">{delivery.id}</td>
-                                        <td className="px-3 py-4 font-semibold lg:px-4 lg:py-5">{delivery.recipient}</td>
-                                        <td className="px-3 py-4 lg:px-4 lg:py-5">{delivery.items}</td>
-                                        <td className="px-3 py-4 lg:px-4 lg:py-5">{delivery.destination}</td>
-                                        <td className="px-3 py-4 lg:px-4 lg:py-5">{delivery.carrier}</td>
-                                        <td className="px-3 py-4 lg:px-4 lg:py-5">{delivery.eta}</td>
+                                {filteredDeliveries.length === 0 ? (
+                                    <tr>
+                                        <td colSpan={6} className="px-3 py-8 text-center text-xs text-[#7B8A91] lg:text-sm">
+                                            No deliveries found matching your search.
+                                        </td>
                                     </tr>
-                                ))}
+                                ) : (
+                                    filteredDeliveries.map((delivery) => (
+                                        <tr key={delivery.id}>
+                                            <td className="px-3 py-4 font-semibold lg:px-4 lg:py-5">{delivery.id}</td>
+                                            <td className="px-3 py-4 font-semibold lg:px-4 lg:py-5">{delivery.recipient}</td>
+                                            <td className="px-3 py-4 lg:px-4 lg:py-5">{delivery.items}</td>
+                                            <td className="px-3 py-4 lg:px-4 lg:py-5">{delivery.destination}</td>
+                                            <td className="px-3 py-4 lg:px-4 lg:py-5">{delivery.carrier}</td>
+                                            <td className="px-3 py-4 lg:px-4 lg:py-5">{delivery.eta}</td>
+                                        </tr>
+                                    ))
+                                )}
                             </tbody>
                         </table>
                     </div>
 
                     <p className="mt-4 text-[10px] font-medium text-[#7B8A91] lg:text-xs">
-                        Showing {deliveryItems.length} records - Scroll to see all columns
+                        Showing {filteredDeliveries.length} {filteredDeliveries.length === 1 ? "record" : "records"}{" "}
+                        {searchQuery ? "(filtered)" : "- Scroll to see all columns"}
                     </p>
                 </section>
 
-                <section className="mt-5 rounded-[8px] border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
+                <section className="mt-5 rounded-lg border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
                     <h2 className="text-base font-semibold leading-none lg:text-lg">Active route - DL-2048</h2>
                     <p className="mt-5 text-xs font-medium leading-5 text-[#22343A] lg:mt-7 lg:text-sm">
                         Main Warehouse - East Coast Hub - Meridian Retail. Next stop 1:45 PM. Estimated arrival 2:30 PM.
@@ -285,7 +311,7 @@ const Deliveries = () => {
                                     onChange={handleInputChange}
                                     required
                                     placeholder="e.g. Meridian Retail"
-                                    className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                    className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                 />
                             </div>
 
@@ -302,7 +328,7 @@ const Deliveries = () => {
                                         onChange={handleInputChange}
                                         required
                                         placeholder="e.g. 32"
-                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     />
                                 </div>
                                 <div>
@@ -316,7 +342,7 @@ const Deliveries = () => {
                                         onChange={handleInputChange}
                                         required
                                         placeholder="e.g. Today 2:30 PM"
-                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     />
                                 </div>
                             </div>
@@ -331,7 +357,7 @@ const Deliveries = () => {
                                     onChange={handleInputChange}
                                     required
                                     placeholder="e.g. East Coast"
-                                    className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                    className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                 />
                             </div>
 
@@ -346,7 +372,7 @@ const Deliveries = () => {
                                     onChange={handleInputChange}
                                     required
                                     placeholder="e.g. Atlas - Sam Lee"
-                                    className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                    className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                 />
                             </div>
 

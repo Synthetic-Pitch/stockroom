@@ -11,7 +11,7 @@ const MetricCardsPhase1 = () => {
             {cards.map((card) => (
                 <li
                     key={card.label}
-                    className="flex h-45 w-full flex-col justify-evenly rounded-2xl bg-white px-4 shadow-sm lg:h-[118px] lg:rounded-[8px] lg:border lg:border-[#E1E8EA] lg:px-5"
+                    className="flex h-45 w-full flex-col justify-evenly rounded-2xl bg-white px-4 shadow-sm lg:h-[118px] lg:rounded-lg lg:border lg:border-[#E1E8EA] lg:px-5"
                 >
                     <p className="text-[16px] text-gray-600 lg:text-xs">{card.label}</p>
                     <h1 className="text-5xl font-semibold text-[#353535] lg:text-3xl">{card.value}</h1>

@@ -38,7 +38,7 @@ const UpcomingRecently = () => {
 
     return (
         <div className="space-y-5 py-5 lg:grid lg:grid-cols-2 lg:gap-5 lg:space-y-0 lg:py-6">
-            <section className="w-full rounded-2xl border border-[#E1E8EA] bg-white px-4 py-6 shadow-sm lg:rounded-[8px] lg:px-5">
+            <section className="w-full rounded-2xl border border-[#E1E8EA] bg-white px-4 py-6 shadow-sm lg:rounded-lg lg:px-5">
                 <h2 className="text-xl font-semibold leading-none text-[#22343A] lg:text-base">Upcoming deliveries</h2>
                 <ul className="mt-6 space-y-6 lg:space-y-5">
                     {deliveries.map((delivery) => (
@@ -58,7 +58,7 @@ const UpcomingRecently = () => {
                 </ul>
             </section>
 
-            <section className="w-full rounded-2xl border border-[#E1E8EA] bg-white px-4 py-6 shadow-sm lg:rounded-[8px] lg:px-5">
+            <section className="w-full rounded-2xl border border-[#E1E8EA] bg-white px-4 py-6 shadow-sm lg:rounded-lg lg:px-5">
                 <h2 className="text-xl font-semibold leading-none text-[#22343A] lg:text-base">Recent activity</h2>
                 <ul className="mt-6 space-y-6 lg:space-y-5">
                     {activities.map(({Icon, title, detail}) => (

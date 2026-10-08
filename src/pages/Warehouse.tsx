@@ -239,7 +239,7 @@ const Warehouse = () => {
 
                 {/* Success Notification Banner */}
                 {successMessage && (
-                    <div className="mt-5 flex items-center justify-between gap-3 rounded-[8px] border border-[#07887D]/20 bg-[#E8F5F3] px-4 py-3 text-xs font-medium text-[#07887D] lg:text-sm">
+                    <div className="mt-5 flex items-center justify-between gap-3 rounded-lg border border-[#07887D]/20 bg-[#E8F5F3] px-4 py-3 text-xs font-medium text-[#07887D] lg:text-sm">
                         <div className="flex items-center gap-2.5">
                             <CheckCircle2 className="size-4 shrink-0 text-[#07887D]" />
                             <span>{successMessage}</span>
@@ -260,7 +260,7 @@ const Warehouse = () => {
                     {metrics.map((metric) => (
                         <li
                             key={metric.label}
-                            className="rounded-[8px] border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:px-5 lg:py-6"
+                            className="rounded-lg border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:px-5 lg:py-6"
                         >
                             <p className="text-xs font-medium text-[#7B8A91] lg:text-sm">{metric.label}</p>
                             <p className="mt-4 text-2xl font-semibold leading-none text-[#22343A] lg:mt-5 lg:text-4xl">
@@ -274,11 +274,11 @@ const Warehouse = () => {
                 </ul>
 
                 {/* All Warehouses Section */}
-                <section className="mt-5 rounded-[8px] border border-[#DDE5E8] bg-white px-3 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
+                <section className="mt-5 rounded-lg border border-[#DDE5E8] bg-white px-3 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
                     <h2 className="text-base font-semibold leading-none lg:text-lg">All warehouses</h2>
 
                     <div className="mt-5 flex flex-col gap-3 lg:mt-6 lg:flex-row">
-                        <label className="flex min-w-0 flex-1 items-center gap-3 rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-[#9AA6AB]">
+                        <label className="flex min-w-0 flex-1 items-center gap-3 rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-[#9AA6AB]">
                             <Search className="size-4 shrink-0" aria-hidden="true" />
                             <input
                                 type="search"
@@ -296,7 +296,7 @@ const Warehouse = () => {
                         </label>
                         <button
                             type="button"
-                            className="flex cursor-pointer items-center justify-between rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-xs font-medium text-[#9AA6AB] lg:w-[190px] lg:text-sm"
+                            className="flex cursor-pointer items-center justify-between rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-xs font-medium text-[#9AA6AB] lg:w-[190px] lg:text-sm"
                         >
                             All statuses
                             <ChevronDown className="size-4" aria-hidden="true" />
@@ -345,7 +345,7 @@ const Warehouse = () => {
                 </section>
 
                 {/* Recent Transfers Section */}
-                <section className="mt-5 rounded-[8px] border border-[#DDE5E8] bg-white px-3 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
+                <section className="mt-5 rounded-lg border border-[#DDE5E8] bg-white px-3 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
                     <div className="flex items-center justify-between">
                         <div>
                             <h2 className="text-base font-semibold leading-none lg:text-lg">Recent stock transfers</h2>
@@ -399,7 +399,7 @@ const Warehouse = () => {
                 </section>
 
                 {/* Zones and Aisles Section */}
-                <section className="mt-5 rounded-[8px] border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
+                <section className="mt-5 rounded-lg border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
                     <h2 className="text-base font-semibold leading-none lg:text-lg">Zones and aisles</h2>
                     <p className="mt-5 text-xs font-medium leading-5 text-[#22343A] lg:mt-7 lg:text-sm">
                         Zone A - Packaging / Zone B - Safety gear / Zone C - Hardware
@@ -466,7 +466,7 @@ const Warehouse = () => {
                                     name="item"
                                     value={formData.item}
                                     onChange={handleInputChange}
-                                    className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                    className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                 >
                                     {popularItems.map((item) => (
                                         <option key={item} value={item}>
@@ -483,7 +483,7 @@ const Warehouse = () => {
                                         onChange={handleInputChange}
                                         required
                                         placeholder="Enter custom SKU / Item name"
-                                        className="mt-2 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-2 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     />
                                 )}
                             </div>
@@ -498,7 +498,7 @@ const Warehouse = () => {
                                         name="fromWarehouse"
                                         value={formData.fromWarehouse}
                                         onChange={handleInputChange}
-                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     >
                                         {warehouses.map((w) => (
                                             <option key={w.name} value={w.name}>
@@ -515,7 +515,7 @@ const Warehouse = () => {
                                         name="toWarehouse"
                                         value={formData.toWarehouse}
                                         onChange={handleInputChange}
-                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     >
                                         {warehouses.map((w) => (
                                             <option key={w.name} value={w.name}>
@@ -540,7 +540,7 @@ const Warehouse = () => {
                                         onChange={handleInputChange}
                                         required
                                         placeholder="50"
-                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     />
                                 </div>
                                 <div>
@@ -553,7 +553,7 @@ const Warehouse = () => {
                                         value={formData.manager}
                                         onChange={handleInputChange}
                                         placeholder="e.g. Jamie Davis"
-                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     />
                                 </div>
                             </div>
@@ -569,7 +569,7 @@ const Warehouse = () => {
                                     value={formData.notes}
                                     onChange={handleInputChange}
                                     placeholder="e.g. Replenish low stock / Regional rebalance"
-                                    className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                    className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                 />
                             </div>
 

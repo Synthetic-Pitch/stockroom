@@ -58,7 +58,7 @@ const initialCustomers: Customer[] = [
 ];
 
 const MetricCard = ({ label, value, note }: Metric) => (
-    <li className="rounded-[8px] border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:px-5 lg:py-6">
+    <li className="rounded-lg border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:px-5 lg:py-6">
         <p className="text-xs font-medium text-[#7B8A91] lg:text-sm">{label}</p>
         <p className="mt-4 text-2xl font-semibold leading-none text-[#22343A] lg:mt-5 lg:text-4xl">{value}</p>
         <p className="mt-4 text-[10px] font-medium text-[#7B8A91] lg:mt-5 lg:text-xs">{note}</p>
@@ -79,6 +79,7 @@ const PrimaryButton = ({ children, onClick }: { children: ReactNode; onClick?: (
 const Customers = () => {
     const [customerItems, setCustomerItems] = useState<Customer[]>(initialCustomers);
     const [isAddModalOpen, setIsAddModalOpen] = useState(false);
+    const [searchQuery, setSearchQuery] = useState("");
 
     // Form inputs state
     const [formData, setFormData] = useState({
@@ -122,7 +123,7 @@ const Customers = () => {
 
         // Push new customer into the list (placed at top of the customer table)
         setCustomerItems((prev) => [newCustomer, ...prev]);
-
+        
         // Reset form & close modal
         setFormData({
             name: "",
@@ -132,6 +133,18 @@ const Customers = () => {
         });
         setIsAddModalOpen(false);
     };
+
+    // Filter customers based on search query
+    const filteredCustomers = customerItems.filter((customer) => {
+        if (!searchQuery.trim()) return true;
+        const query = searchQuery.toLowerCase();
+        return (
+            customer.name.toLowerCase().includes(query) ||
+            customer.contact.toLowerCase().includes(query) ||
+            customer.email.toLowerCase().includes(query) ||
+            customer.address.toLowerCase().includes(query)
+        );
+    });
 
     return (
         <div className="min-h-screen bg-[#F4F7F8] lg:flex">
@@ -154,15 +167,17 @@ const Customers = () => {
                     ))}
                 </ul>
 
-                <section className="mt-5 rounded-[8px] border border-[#DDE5E8] bg-white px-3 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
+                <section className="mt-5 rounded-lg border border-[#DDE5E8] bg-white px-3 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
                     <h2 className="text-base font-semibold leading-none lg:text-lg">All customers</h2>
 
                     <div className="mt-5 flex flex-col gap-3 lg:mt-6 lg:flex-row">
-                        <label className="flex min-w-0 flex-1 items-center gap-3 rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-[#9AA6AB]">
+                        <label className="flex min-w-0 flex-1 items-center gap-3 rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-[#9AA6AB]">
                             <Search className="size-4 shrink-0" aria-hidden="true" />
                             <input
                                 type="search"
                                 placeholder="Search customers..."
+                                value={searchQuery}
+                                onChange={(e) => setSearchQuery(e.target.value)}
                                 className="min-w-0 flex-1 bg-transparent text-xs font-medium outline-none placeholder:text-[#9AA6AB] lg:text-sm"
                                 aria-label="Search customers"
                                 autoComplete="off"
@@ -174,7 +189,7 @@ const Customers = () => {
                         </label>
                         <button
                             type="button"
-                            className="flex items-center justify-between rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-xs font-medium text-[#9AA6AB] lg:w-[190px] lg:text-sm"
+                            className="flex items-center justify-between rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-xs font-medium text-[#9AA6AB] lg:w-[190px] lg:text-sm"
                         >
                             All statuses
                             <ChevronDown className="size-4" aria-hidden="true" />
@@ -194,26 +209,34 @@ const Customers = () => {
                                 </tr>
                             </thead>
                             <tbody className="text-[#22343A]">
-                                {customerItems.map((customer, index) => (
-                                    <tr key={`${customer.name}-${index}`}>
-                                        <td className="px-3 py-4 font-semibold lg:px-4 lg:py-5">{customer.name}</td>
-                                        <td className="px-3 py-4 lg:px-4 lg:py-5">{customer.contact}</td>
-                                        <td className="px-3 py-4 lg:px-4 lg:py-5">{customer.email}</td>
-                                        <td className="px-3 py-4 lg:px-4 lg:py-5">{customer.address}</td>
-                                        <td className="px-3 py-4 lg:px-4 lg:py-5">{customer.orders}</td>
-                                        <td className="px-3 py-4 font-medium lg:px-4 lg:py-5">{customer.lifetimeValue}</td>
+                                {filteredCustomers.length === 0 ? (
+                                    <tr>
+                                        <td colSpan={6} className="px-3 py-6 text-center text-[#7B8A91] lg:px-4">
+                                            No customers found.
+                                        </td>
                                     </tr>
-                                ))}
+                                ) : (
+                                    filteredCustomers.map((customer, index) => (
+                                        <tr key={`${customer.name}-${index}`}>
+                                            <td className="px-3 py-4 font-semibold lg:px-4 lg:py-5">{customer.name}</td>
+                                            <td className="px-3 py-4 lg:px-4 lg:py-5">{customer.contact}</td>
+                                            <td className="px-3 py-4 lg:px-4 lg:py-5">{customer.email}</td>
+                                            <td className="px-3 py-4 lg:px-4 lg:py-5">{customer.address}</td>
+                                            <td className="px-3 py-4 lg:px-4 lg:py-5">{customer.orders}</td>
+                                            <td className="px-3 py-4 font-medium lg:px-4 lg:py-5">{customer.lifetimeValue}</td>
+                                        </tr>
+                                    ))
+                                )}
                             </tbody>
                         </table>
                     </div>
 
                     <p className="mt-4 text-[10px] font-medium text-[#7B8A91] lg:text-xs">
-                        Showing {customerItems.length} records - Scroll to see all columns
+                        Showing {filteredCustomers.length} records - Scroll to see all columns
                     </p>
                 </section>
 
-                <section className="mt-5 rounded-[8px] border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
+                <section className="mt-5 rounded-lg border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
                     <h2 className="text-base font-semibold leading-none lg:text-lg">Meridian Retail - Account details</h2>
                     <p className="mt-5 text-xs font-medium leading-5 text-[#22343A] lg:mt-7 lg:text-sm">
                         Recent orders: DL-2048, 32 items / DL-2026, 48 items. Preferred carrier: Atlas. Loading dock B,
@@ -268,7 +291,7 @@ const Customers = () => {
                                     onChange={handleInputChange}
                                     required
                                     placeholder="e.g. Harbor Supply"
-                                    className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                    className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                 />
                             </div>
 
@@ -284,7 +307,7 @@ const Customers = () => {
                                         onChange={handleInputChange}
                                         required
                                         placeholder="e.g. Taylor Brooks"
-                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     />
                                 </div>
                                 <div>
@@ -298,7 +321,7 @@ const Customers = () => {
                                         onChange={handleInputChange}
                                         required
                                         placeholder="e.g. taylor@harbor.example"
-                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     />
                                 </div>
                             </div>
@@ -313,7 +336,7 @@ const Customers = () => {
                                     onChange={handleInputChange}
                                     required
                                     placeholder="e.g. 42 Harbor Avenue"
-                                    className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                    className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                 />
                             </div>
 

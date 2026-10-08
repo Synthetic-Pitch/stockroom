@@ -64,7 +64,7 @@ const auditEvents: AuditEvent[] = [
 ];
 
 const MetricCard = ({ label, value, note }: Metric) => (
-    <li className="rounded-[8px] border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:px-5 lg:py-6">
+    <li className="rounded-lg border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:px-5 lg:py-6">
         <p className="text-xs font-medium text-[#7B8A91] lg:text-sm">{label}</p>
         <p className="mt-4 text-2xl font-semibold leading-none text-[#22343A] lg:mt-5 lg:text-4xl">{value}</p>
         <p className="mt-4 text-[10px] font-medium text-[#7B8A91] lg:mt-5 lg:text-xs">{note}</p>
@@ -103,11 +103,11 @@ const History = () => {
                     ))}
                 </ul>
 
-                <section className="mt-5 rounded-[8px] border border-[#DDE5E8] bg-white px-3 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
+                <section className="mt-5 rounded-lg border border-[#DDE5E8] bg-white px-3 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
                     <h2 className="text-base font-semibold leading-none lg:text-lg">Activity log</h2>
 
                     <div className="mt-5 flex flex-col gap-3 lg:mt-6 lg:flex-row">
-                        <label className="flex min-w-0 flex-1 items-center gap-3 rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-[#9AA6AB]">
+                        <label className="flex min-w-0 flex-1 items-center gap-3 rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-[#9AA6AB]">
                             <Search className="size-4 shrink-0" aria-hidden="true" />
                             <input
                                 type="search"
@@ -123,7 +123,7 @@ const History = () => {
                         </label>
                         <button
                             type="button"
-                            className="flex items-center justify-between rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-xs font-medium text-[#9AA6AB] lg:w-[190px] lg:text-sm"
+                            className="flex items-center justify-between rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-xs font-medium text-[#9AA6AB] lg:w-[190px] lg:text-sm"
                         >
                             All statuses
                             <ChevronDown className="size-4" aria-hidden="true" />
@@ -164,7 +164,7 @@ const History = () => {
                     </p>
                 </section>
 
-                <section className="mt-5 rounded-[8px] border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
+                <section className="mt-5 rounded-lg border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
                     <h2 className="text-base font-semibold leading-none lg:text-lg">Compliance-ready exports</h2>
                     <p className="mt-5 text-xs font-medium leading-5 text-[#22343A] lg:mt-7 lg:text-sm">
                         Filter by date, event, and staff member. Export CSV for accounting or PDF for audit review.

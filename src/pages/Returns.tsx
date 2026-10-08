@@ -59,7 +59,7 @@ const initialReturns: ReturnRow[] = [
 ];
 
 const MetricCard = ({ label, value, note }: Metric) => (
-    <li className="rounded-[8px] border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:px-5 lg:py-6">
+    <li className="rounded-lg border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:px-5 lg:py-6">
         <p className="text-xs font-medium text-[#7B8A91] lg:text-sm">{label}</p>
         <p className="mt-4 text-2xl font-semibold leading-none text-[#22343A] lg:mt-5 lg:text-4xl">{value}</p>
         <p className="mt-4 text-[10px] font-medium text-[#7B8A91] lg:mt-5 lg:text-xs">{note}</p>
@@ -166,11 +166,11 @@ const Returns = () => {
                     ))}
                 </ul>
 
-                <section className="mt-5 rounded-[8px] border border-[#DDE5E8] bg-white px-3 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
+                <section className="mt-5 rounded-lg border border-[#DDE5E8] bg-white px-3 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
                     <h2 className="text-base font-semibold leading-none lg:text-lg">RMA processing queue</h2>
 
                     <div className="mt-5 flex flex-col gap-3 lg:mt-6 lg:flex-row">
-                        <label className="flex min-w-0 flex-1 items-center gap-3 rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-[#9AA6AB]">
+                        <label className="flex min-w-0 flex-1 items-center gap-3 rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-[#9AA6AB]">
                             <Search className="size-4 shrink-0" aria-hidden="true" />
                             <input
                                 type="search"
@@ -186,7 +186,7 @@ const Returns = () => {
                         </label>
                         <button
                             type="button"
-                            className="flex items-center justify-between rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-xs font-medium text-[#9AA6AB] lg:w-[190px] lg:text-sm"
+                            className="flex items-center justify-between rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-xs font-medium text-[#9AA6AB] lg:w-[190px] lg:text-sm"
                         >
                             All statuses
                             <ChevronDown className="size-4" aria-hidden="true" />
@@ -225,7 +225,7 @@ const Returns = () => {
                     </p>
                 </section>
 
-                <section className="mt-5 rounded-[8px] border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
+                <section className="mt-5 rounded-lg border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:mt-7 lg:px-5 lg:py-6">
                     <h2 className="text-base font-semibold leading-none lg:text-lg">Inspection workspace - RT-0086</h2>
                     <p className="mt-5 text-xs font-medium leading-5 text-[#22343A] lg:mt-7 lg:text-sm">
                         Packing boxes - 12 units. Review damaged-goods photos and select Restock, Repair, or Disposal.
@@ -279,7 +279,7 @@ const Returns = () => {
                                     onChange={handleInputChange}
                                     required
                                     placeholder="e.g. Meridian Retail"
-                                    className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                    className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                 />
                             </div>
 
@@ -295,7 +295,7 @@ const Returns = () => {
                                         onChange={handleInputChange}
                                         required
                                         placeholder="e.g. BX-104"
-                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     />
                                 </div>
                                 <div>
@@ -310,7 +310,7 @@ const Returns = () => {
                                         onChange={handleInputChange}
                                         required
                                         placeholder="e.g. 12"
-                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     />
                                 </div>
                             </div>
@@ -320,7 +320,7 @@ const Returns = () => {
                                     name="reason"
                                     value={formData.reason}
                                     onChange={handleInputChange}
-                                    className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                    className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                 >
                                     <option>Damaged in transit</option>
                                     <option>Wrong item sent</option>
@@ -337,7 +337,7 @@ const Returns = () => {
                                         name="inspectionStatus"
                                         value={formData.inspectionStatus}
                                         onChange={handleInputChange}
-                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     >
                                         <option>Awaiting arrival</option>
                                         <option>Under inspection</option>
@@ -350,7 +350,7 @@ const Returns = () => {
                                         name="action"
                                         value={formData.action}
                                         onChange={handleInputChange}
-                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     >
                                         <option>Review photos</option>
                                         <option>Issue replacement</option>

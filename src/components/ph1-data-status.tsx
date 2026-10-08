@@ -19,7 +19,7 @@ const DataStatusPhase1 = () => {
     
     return (
         <div className="space-y-4 lg:grid lg:grid-cols-[minmax(0,2fr)_minmax(250px,0.85fr)] lg:gap-5 lg:space-y-0">
-            <section className="w-full rounded-2xl border border-[#E4EAEC] bg-white px-5 py-5 shadow-sm lg:rounded-[8px]">
+            <section className="w-full rounded-2xl border border-[#E4EAEC] bg-white px-5 py-5 shadow-sm lg:rounded-lg">
                 <header className="space-y-5">
                     <div className="flex items-center justify-between gap-4">
                         <h2 className="text-2xl font-semibold leading-none text-[#22343A] lg:text-base">Stock movement</h2>
@@ -65,7 +65,7 @@ const DataStatusPhase1 = () => {
                     </div>
                 </main>
             </section>
-            <section className="w-full rounded-2xl border border-[#E4EAEC] bg-white px-5 py-5 shadow-sm lg:rounded-[8px]">
+            <section className="w-full rounded-2xl border border-[#E4EAEC] bg-white px-5 py-5 shadow-sm lg:rounded-lg">
                 <header>
                     <h2 className="text-2xl font-semibold leading-none text-[#22343A] lg:text-base">Stock health</h2>
                 </header>
@@ -74,7 +74,7 @@ const DataStatusPhase1 = () => {
                     <p className="mt-7 text-base font-medium text-[#8A989E] lg:mt-5 lg:text-xs">Unique items in your inventory</p>
 
                     <div
-                        className="mt-6 flex h-4 overflow-hidden rounded-[4px]"
+                        className="mt-6 flex h-4 overflow-hidden rounded"
                         aria-label="Stock health status distribution"
                     >
                         {stockHealth

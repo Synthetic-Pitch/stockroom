@@ -120,7 +120,7 @@ const InventoryPhase1 = () => {
     };
 
     return (
-        <section className="mt-4 w-full rounded-2xl border border-[#E1E8EA] bg-white px-4 py-6 shadow-sm lg:mt-8 lg:rounded-[8px] lg:px-5 lg:py-5">
+        <section className="mt-4 w-full rounded-2xl border border-[#E1E8EA] bg-white px-4 py-6 shadow-sm lg:mt-8 lg:rounded-lg lg:px-5 lg:py-5">
             <header className="lg:flex lg:items-start lg:justify-between lg:gap-5">
                 <div>
                     <h2 className="text-xl font-semibold leading-none text-[#0C1F26] lg:text-base">Inventory</h2>
@@ -234,7 +234,7 @@ const InventoryPhase1 = () => {
                                     onChange={handleInputChange}
                                     required
                                     placeholder="e.g. Packing boxes - BX-104"
-                                    className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                    className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                 />
                             </div>
 
@@ -245,7 +245,7 @@ const InventoryPhase1 = () => {
                                         name="category"
                                         value={formData.category}
                                         onChange={handleInputChange}
-                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     >
                                         <option>Packaging</option>
                                         <option>Safety</option>
@@ -266,7 +266,7 @@ const InventoryPhase1 = () => {
                                         onChange={handleInputChange}
                                         required
                                         placeholder="e.g. A-01-04"
-                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     />
                                 </div>
                             </div>
@@ -283,7 +283,7 @@ const InventoryPhase1 = () => {
                                         onChange={handleInputChange}
                                         required
                                         placeholder="e.g. 1240"
-                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     />
                                 </div>
                                 <div>
@@ -299,7 +299,7 @@ const InventoryPhase1 = () => {
                                         onChange={handleInputChange}
                                         required
                                         placeholder="e.g. 22.40"
-                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                        className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                     />
                                 </div>
                             </div>
@@ -310,7 +310,7 @@ const InventoryPhase1 = () => {
                                     name="status"
                                     value={formData.status}
                                     onChange={handleInputChange}
-                                    className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                    className="mt-1.5 w-full rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
                                 >
                                     <option>In stock</option>
                                     <option>Low stock</option>
