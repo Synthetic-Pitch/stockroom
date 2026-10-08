@@ -1,5 +1,5 @@
-import { ChevronDown, Plus, Search } from "lucide-react";
-import type { ReactNode } from "react";
+import { ChevronDown, Plus, Search, X } from "lucide-react";
+import { useEffect, useState, type FormEvent, type ReactNode } from "react";
 import Navbar from "../components/navbar";
 
 type Metric = {
@@ -23,7 +23,7 @@ const metrics: Metric[] = [
     { label: "Delivered today", value: "4", note: "Across your workspace" },
 ];
 
-const deliveries: Delivery[] = [
+const initialDeliveries: Delivery[] = [
     {
         id: "DL-2048",
         recipient: "Meridian Retail",
@@ -66,9 +66,10 @@ const MetricCard = ({ label, value, note }: Metric) => (
     </li>
 );
 
-const PrimaryButton = ({ children }: { children: ReactNode }) => (
+const PrimaryButton = ({ children, onClick }: { children: ReactNode; onClick?: () => void }) => (
     <button
         type="button"
+        onClick={onClick}
         className="flex items-center gap-3 rounded-[7px] bg-[#07887D] px-4 py-3 text-xs font-semibold text-white transition-colors hover:bg-[#06766D] lg:px-5 lg:py-4 lg:text-sm"
     >
         <Plus className="size-4 shrink-0" aria-hidden="true" />
@@ -77,6 +78,79 @@ const PrimaryButton = ({ children }: { children: ReactNode }) => (
 );
 
 const Deliveries = () => {
+    const [deliveryItems, setDeliveryItems] = useState<Delivery[]>(initialDeliveries);
+    const [isScheduleModalOpen, setIsScheduleModalOpen] = useState(false);
+
+    // Form inputs state
+    const [formData, setFormData] = useState({
+        recipient: "",
+        items: "",
+        destination: "",
+        carrier: "",
+        eta: "",
+    });
+
+    // Close modal on Escape key
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key === "Escape" && isScheduleModalOpen) {
+                setIsScheduleModalOpen(false);
+            }
+        };
+        window.addEventListener("keydown", handleKeyDown);
+        return () => window.removeEventListener("keydown", handleKeyDown);
+    }, [isScheduleModalOpen]);
+
+    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+        const { name, value } = e.target;
+        setFormData((prev) => ({ ...prev, [name]: value }));
+    };
+
+    const handleScheduleDelivery = (e: FormEvent) => {
+        e.preventDefault();
+
+        const itemsNum = parseInt(formData.items, 10);
+        if (
+            !formData.recipient.trim() ||
+            !formData.destination.trim() ||
+            !formData.carrier.trim() ||
+            !formData.eta.trim() ||
+            !Number.isFinite(itemsNum) ||
+            itemsNum < 1
+        ) {
+            return;
+        }
+
+        // Generate the next delivery ID (DL-2052, DL-2053, ...)
+        const maxId = deliveryItems.reduce((max, row) => {
+            const match = row.id.match(/^DL-(\d+)/);
+            const numericId = match ? parseInt(match[1], 10) : 0;
+            return numericId > max ? numericId : max;
+        }, 0);
+
+        const newDelivery: Delivery = {
+            id: `DL-${String(maxId + 1).padStart(4, "0")}`,
+            recipient: formData.recipient.trim(),
+            items: String(itemsNum),
+            destination: formData.destination.trim(),
+            carrier: formData.carrier.trim(),
+            eta: formData.eta.trim(),
+        };
+
+        // Push new delivery into the schedule (placed at top of the delivery list)
+        setDeliveryItems((prev) => [newDelivery, ...prev]);
+
+        // Reset form & close modal
+        setFormData({
+            recipient: "",
+            items: "",
+            destination: "",
+            carrier: "",
+            eta: "",
+        });
+        setIsScheduleModalOpen(false);
+    };
+
     return (
         <div className="min-h-screen bg-[#F4F7F8] lg:flex">
             <Navbar />
@@ -89,7 +163,7 @@ const Deliveries = () => {
                             Coordinate incoming stock and outgoing shipments.
                         </p>
                     </div>
-                    <PrimaryButton>Schedule delivery</PrimaryButton>
+                    <PrimaryButton onClick={() => setIsScheduleModalOpen(true)}>Schedule delivery</PrimaryButton>
                 </header>
 
                 <ul className="mt-5 grid grid-cols-2 gap-3 lg:mt-9 lg:grid-cols-3 lg:gap-5">
@@ -138,7 +212,7 @@ const Deliveries = () => {
                                 </tr>
                             </thead>
                             <tbody className="text-[#22343A]">
-                                {deliveries.map((delivery) => (
+                                {deliveryItems.map((delivery) => (
                                     <tr key={delivery.id}>
                                         <td className="px-3 py-4 font-semibold lg:px-4 lg:py-5">{delivery.id}</td>
                                         <td className="px-3 py-4 font-semibold lg:px-4 lg:py-5">{delivery.recipient}</td>
@@ -153,7 +227,7 @@ const Deliveries = () => {
                     </div>
 
                     <p className="mt-4 text-[10px] font-medium text-[#7B8A91] lg:text-xs">
-                        Showing 4 sample records - Scroll to see all columns
+                        Showing {deliveryItems.length} records - Scroll to see all columns
                     </p>
                 </section>
 
@@ -167,6 +241,136 @@ const Deliveries = () => {
                     </div>
                 </section>
             </main>
+
+            {/* Schedule Delivery Modal */}
+            {isScheduleModalOpen && (
+                <div
+                    className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4 backdrop-blur-xs"
+                    onClick={() => setIsScheduleModalOpen(false)}
+                    role="dialog"
+                    aria-modal="true"
+                    aria-labelledby="schedule-delivery-modal-title"
+                >
+                    <div
+                        className="relative w-full max-w-lg rounded-2xl border border-[#DDE5E8] bg-white p-6 shadow-xl"
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <div className="flex items-center justify-between border-b border-[#E1E8EA] pb-4">
+                            <div>
+                                <h3 id="schedule-delivery-modal-title" className="text-lg font-semibold text-[#22343A]">
+                                    Schedule Delivery
+                                </h3>
+                                <p className="mt-1 text-xs text-[#7B8A91]">
+                                    Enter details to push a new delivery into the schedule.
+                                </p>
+                            </div>
+                            <button
+                                type="button"
+                                onClick={() => setIsScheduleModalOpen(false)}
+                                className="rounded-md p-1.5 text-[#7B8A91] transition hover:bg-[#F3F5F6] hover:text-[#22343A]"
+                                aria-label="Close modal"
+                            >
+                                <X className="size-5" />
+                            </button>
+                        </div>
+                        <form onSubmit={handleScheduleDelivery} className="mt-5 space-y-4">
+                            <div>
+                                <label className="block text-xs font-medium text-[#22343A]">
+                                    Recipient / Supplier <span className="text-red-500">*</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    name="recipient"
+                                    value={formData.recipient}
+                                    onChange={handleInputChange}
+                                    required
+                                    placeholder="e.g. Meridian Retail"
+                                    className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                />
+                            </div>
+
+                            <div className="grid grid-cols-2 gap-3">
+                                <div>
+                                    <label className="block text-xs font-medium text-[#22343A]">
+                                        Items <span className="text-red-500">*</span>
+                                    </label>
+                                    <input
+                                        type="number"
+                                        min="1"
+                                        name="items"
+                                        value={formData.items}
+                                        onChange={handleInputChange}
+                                        required
+                                        placeholder="e.g. 32"
+                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                    />
+                                </div>
+                                <div>
+                                    <label className="block text-xs font-medium text-[#22343A]">
+                                        ETA <span className="text-red-500">*</span>
+                                    </label>
+                                    <input
+                                        type="text"
+                                        name="eta"
+                                        value={formData.eta}
+                                        onChange={handleInputChange}
+                                        required
+                                        placeholder="e.g. Today 2:30 PM"
+                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                    />
+                                </div>
+                            </div>
+                            <div>
+                                <label className="block text-xs font-medium text-[#22343A]">
+                                    Destination <span className="text-red-500">*</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    name="destination"
+                                    value={formData.destination}
+                                    onChange={handleInputChange}
+                                    required
+                                    placeholder="e.g. East Coast"
+                                    className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                />
+                            </div>
+
+                            <div>
+                                <label className="block text-xs font-medium text-[#22343A]">
+                                    Carrier / Driver <span className="text-red-500">*</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    name="carrier"
+                                    value={formData.carrier}
+                                    onChange={handleInputChange}
+                                    required
+                                    placeholder="e.g. Atlas - Sam Lee"
+                                    className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                />
+                            </div>
+
+                            {/* Actions */}
+                            <div className="mt-6 flex items-center justify-end gap-3 pt-3">
+                                <button
+                                    type="button"
+                                    onClick={() => setIsScheduleModalOpen(false)}
+                                    className="cursor-pointer rounded-[7px] border border-[#DDE5E8] px-4 py-2.5 text-xs font-semibold text-[#7B8A91] transition hover:bg-[#F3F5F6] hover:text-[#22343A]"
+                                >
+                                    Cancel
+                                </button>
+                                <button
+                                    type="submit"
+                                    className="flex cursor-pointer items-center gap-2 rounded-[7px] bg-[#07887D] px-5 py-2.5 text-xs font-semibold text-white transition hover:bg-[#06766D]"
+                                >
+                                    <Plus className="size-4" />
+                                    Schedule Delivery
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            )}
         </div>
     );
 };

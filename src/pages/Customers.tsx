@@ -1,5 +1,5 @@
-import { ChevronDown, Plus, Search } from "lucide-react";
-import type { ReactNode } from "react";
+import { ChevronDown, Plus, Search, X } from "lucide-react";
+import { useEffect, useState, type FormEvent, type ReactNode } from "react";
 import Navbar from "../components/navbar";
 
 type Metric = {
@@ -22,7 +22,7 @@ const metrics: Metric[] = [
     { label: "Monthly volume", value: "₱312,400", note: "Across your workspace" },
 ];
 
-const customers: Customer[] = [
+const initialCustomers: Customer[] = [
     {
         name: "Meridian Retail",
         contact: "Taylor Brooks",
@@ -65,9 +65,10 @@ const MetricCard = ({ label, value, note }: Metric) => (
     </li>
 );
 
-const PrimaryButton = ({ children }: { children: ReactNode }) => (
+const PrimaryButton = ({ children, onClick }: { children: ReactNode; onClick?: () => void }) => (
     <button
         type="button"
+        onClick={onClick}
         className="flex items-center gap-3 rounded-[7px] bg-[#07887D] px-4 py-3 text-xs font-semibold text-white transition-colors hover:bg-[#06766D] lg:px-5 lg:py-4 lg:text-sm"
     >
         <Plus className="size-4 shrink-0" aria-hidden="true" />
@@ -76,6 +77,62 @@ const PrimaryButton = ({ children }: { children: ReactNode }) => (
 );
 
 const Customers = () => {
+    const [customerItems, setCustomerItems] = useState<Customer[]>(initialCustomers);
+    const [isAddModalOpen, setIsAddModalOpen] = useState(false);
+
+    // Form inputs state
+    const [formData, setFormData] = useState({
+        name: "",
+        contact: "",
+        email: "",
+        address: "",
+    });
+
+    // Close modal on Escape key
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key === "Escape" && isAddModalOpen) {
+                setIsAddModalOpen(false);
+            }
+        };
+        window.addEventListener("keydown", handleKeyDown);
+        return () => window.removeEventListener("keydown", handleKeyDown);
+    }, [isAddModalOpen]);
+
+    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+        const { name, value } = e.target;
+        setFormData((prev) => ({ ...prev, [name]: value }));
+    };
+
+    const handleAddCustomer = (e: FormEvent) => {
+        e.preventDefault();
+
+        if (!formData.name.trim() || !formData.contact.trim() || !formData.email.trim() || !formData.address.trim()) {
+            return;
+        }
+
+        const newCustomer: Customer = {
+            name: formData.name.trim(),
+            contact: formData.contact.trim(),
+            email: formData.email.trim(),
+            address: formData.address.trim(),
+            orders: "0",
+            lifetimeValue: "₱0",
+        };
+
+        // Push new customer into the list (placed at top of the customer table)
+        setCustomerItems((prev) => [newCustomer, ...prev]);
+
+        // Reset form & close modal
+        setFormData({
+            name: "",
+            contact: "",
+            email: "",
+            address: "",
+        });
+        setIsAddModalOpen(false);
+    };
+
     return (
         <div className="min-h-screen bg-[#F4F7F8] lg:flex">
             <Navbar />
@@ -88,7 +145,7 @@ const Customers = () => {
                             Manage client relationships and delivery preferences.
                         </p>
                     </div>
-                    <PrimaryButton>Add customer</PrimaryButton>
+                    <PrimaryButton onClick={() => setIsAddModalOpen(true)}>Add customer</PrimaryButton>
                 </header>
 
                 <ul className="mt-5 grid grid-cols-2 gap-3 lg:mt-9 lg:grid-cols-2 lg:gap-5">
@@ -137,8 +194,8 @@ const Customers = () => {
                                 </tr>
                             </thead>
                             <tbody className="text-[#22343A]">
-                                {customers.map((customer) => (
-                                    <tr key={customer.name}>
+                                {customerItems.map((customer, index) => (
+                                    <tr key={`${customer.name}-${index}`}>
                                         <td className="px-3 py-4 font-semibold lg:px-4 lg:py-5">{customer.name}</td>
                                         <td className="px-3 py-4 lg:px-4 lg:py-5">{customer.contact}</td>
                                         <td className="px-3 py-4 lg:px-4 lg:py-5">{customer.email}</td>
@@ -152,7 +209,7 @@ const Customers = () => {
                     </div>
 
                     <p className="mt-4 text-[10px] font-medium text-[#7B8A91] lg:text-xs">
-                        Showing 4 sample records - Scroll to see all columns
+                        Showing {customerItems.length} records - Scroll to see all columns
                     </p>
                 </section>
 
@@ -167,6 +224,120 @@ const Customers = () => {
                     </div>
                 </section>
             </main>
+
+            {/* Add Customer Modal */}
+            {isAddModalOpen && (
+                <div
+                    className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4 backdrop-blur-xs"
+                    onClick={() => setIsAddModalOpen(false)}
+                    role="dialog"
+                    aria-modal="true"
+                    aria-labelledby="add-customer-modal-title"
+                >
+                    <div
+                        className="relative w-full max-w-lg rounded-2xl border border-[#DDE5E8] bg-white p-6 shadow-xl"
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <div className="flex items-center justify-between border-b border-[#E1E8EA] pb-4">
+                            <div>
+                                <h3 id="add-customer-modal-title" className="text-lg font-semibold text-[#22343A]">
+                                    Add Customer
+                                </h3>
+                                <p className="mt-1 text-xs text-[#7B8A91]">
+                                    Enter details to push a new customer into the customer list.
+                                </p>
+                            </div>
+                            <button
+                                type="button"
+                                onClick={() => setIsAddModalOpen(false)}
+                                className="rounded-md p-1.5 text-[#7B8A91] transition hover:bg-[#F3F5F6] hover:text-[#22343A]"
+                                aria-label="Close modal"
+                            >
+                                <X className="size-5" />
+                            </button>
+                        </div>
+                        <form onSubmit={handleAddCustomer} className="mt-5 space-y-4">
+                            <div>
+                                <label className="block text-xs font-medium text-[#22343A]">
+                                    Customer name <span className="text-red-500">*</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    name="name"
+                                    value={formData.name}
+                                    onChange={handleInputChange}
+                                    required
+                                    placeholder="e.g. Harbor Supply"
+                                    className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                />
+                            </div>
+
+                            <div className="grid grid-cols-2 gap-3">
+                                <div>
+                                    <label className="block text-xs font-medium text-[#22343A]">
+                                        Contact person <span className="text-red-500">*</span>
+                                    </label>
+                                    <input
+                                        type="text"
+                                        name="contact"
+                                        value={formData.contact}
+                                        onChange={handleInputChange}
+                                        required
+                                        placeholder="e.g. Taylor Brooks"
+                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                    />
+                                </div>
+                                <div>
+                                    <label className="block text-xs font-medium text-[#22343A]">
+                                        Email <span className="text-red-500">*</span>
+                                    </label>
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        value={formData.email}
+                                        onChange={handleInputChange}
+                                        required
+                                        placeholder="e.g. taylor@harbor.example"
+                                        className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                    />
+                                </div>
+                            </div>
+                            <div>
+                                <label className="block text-xs font-medium text-[#22343A]">
+                                    Address <span className="text-red-500">*</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    name="address"
+                                    value={formData.address}
+                                    onChange={handleInputChange}
+                                    required
+                                    placeholder="e.g. 42 Harbor Avenue"
+                                    className="mt-1.5 w-full rounded-[6px] border border-[#E1E8EA] bg-[#F5F7F8] px-3.5 py-2.5 text-xs text-[#22343A] outline-none transition focus:border-[#07887D] focus:bg-white"
+                                />
+                            </div>
+
+                            {/* Actions */}
+                            <div className="mt-6 flex items-center justify-end gap-3 pt-3">
+                                <button
+                                    type="button"
+                                    onClick={() => setIsAddModalOpen(false)}
+                                    className="cursor-pointer rounded-[7px] border border-[#DDE5E8] px-4 py-2.5 text-xs font-semibold text-[#7B8A91] transition hover:bg-[#F3F5F6] hover:text-[#22343A]"
+                                >
+                                    Cancel
+                                </button>
+                                <button
+                                    type="submit"
+                                    className="flex cursor-pointer items-center gap-2 rounded-[7px] bg-[#07887D] px-5 py-2.5 text-xs font-semibold text-white transition hover:bg-[#06766D]"
+                                >
+                                    <Plus className="size-4" />
+                                    Add Customer
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            )}
         </div>
     );
 };
