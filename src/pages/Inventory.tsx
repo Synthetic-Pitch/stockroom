@@ -286,7 +286,7 @@ const Inventory = () => {
         const { name, value } = e.target;
         setFormData((prev) => ({ ...prev, [name]: value }));
     };
-
+    
     const handleAddItem = (e: FormEvent) => {
         e.preventDefault();
 

@@ -8,6 +8,7 @@ import SupplyRequest from "./pages/SupplyRequest";
 import Customers from "./pages/Customers";
 import Returns from "./pages/Returns";
 import History from "./pages/History";
+import NotFound from "./pages/NotFound";
 
 function App() {
   
@@ -23,6 +24,7 @@ function App() {
         <Route path="/customers" element={<Customers/>}/>
         <Route path="/returns" element={<Returns/>}/>
         <Route path="/history" element={<History/>}/>
+        <Route path="/*" element={<NotFound/>}/>
       </Routes>
     </>
   )
