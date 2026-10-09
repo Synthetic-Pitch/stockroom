@@ -1,0 +1,121 @@
+Request,Requested by,Department,Item,Quantity,Proposed Budget,Urgency,Stage,Request Date
+SR-0001,Mark Anthony Santos,Body Shop & Fabrication,Socket Set 24pc Metric,10,26224.83,Medium,Rejected,2026-04-25
+SR-0002,Alvin Castillo,Engine Repair,Air Compressor 50L 3HP,5,78036.12,High,Approved,2026-08-14
+SR-0003,Alex Chen,Brake & Suspension,Pneumatic Impact Gun 1/2in,1,4349.75,High,Approved,2026-09-09
+SR-0004,Jerome Mendoza,Body Shop & Fabrication,Brake Caliper Piston Press Tool,6,7516.12,Critical,Approved,2026-07-12
+SR-0005,Christian Dela Cruz,Body Shop & Fabrication,RTV Silicone Gasket Black 85g,240,60119.26,Medium,Pending review,2026-03-14
+SR-0006,Kevin Villanueva,General Maintenance,Nitrile gloves Heavy Duty 100pk,240,149474.26,Medium,Approved,2026-09-13
+SR-0007,Alvin Castillo,Brake & Suspension,Digital Multimeter Auto-Ranging,14,27519.32,Medium,Approved,2026-09-26
+SR-0008,Alvin Castillo,General Maintenance,Air Compressor 50L 3HP,4,59562.66,High,Approved,2026-03-08
+SR-0009,Mark Anthony Santos,Electrical & Diagnostics,Helicoil Thread Repair Kit M8,11,9484.75,Low,Fulfilled,2026-03-04
+SR-0010,Neil Fernandez,Body Shop & Fabrication,Helicoil Thread Repair Kit M8,10,8395.03,Medium,Rejected,2026-10-08
+SR-0011,Neil Fernandez,Body Shop & Fabrication,Brake Caliper Piston Press Tool,8,9803.80,High,Pending review,2026-03-18
+SR-0012,Carlo Tolentino,Body Shop & Fabrication,Digital Multimeter Auto-Ranging,9,16716.44,Low,In procurement,2026-08-27
+SR-0013,Neil Fernandez,Electrical & Diagnostics,DOT 4 Brake Fluid 1L,20,9672.39,Medium,Fulfilled,2026-02-20
+SR-0014,Francis Aquino,Brake & Suspension,Mechanic Shop Towels 50pk,100,82131.76,High,Approved,2026-02-02
+SR-0015,Neil Fernandez,General Maintenance,3-Jaw Oil Filter Wrench,3,1116.27,High,Pending review,2026-01-08
+SR-0016,Alex Chen,Body Shop & Fabrication,Mechanic Shop Towels 50pk,50,39057.00,Low,Pending review,2026-01-23
+SR-0017,Francis Aquino,Engine Repair,Bearing Puller Separator Kit 9pc,14,45366.51,Low,Pending review,2026-09-09
+SR-0018,Eduardo Flores,Electrical & Diagnostics,Carburetor Cleaner Spray 450ml,100,20781.09,High,Approved,2026-02-13
+SR-0019,Paolo Reyes,Engine Repair,Angle Grinder 4.5in 850W,5,14191.58,Medium,Fulfilled,2026-09-24
+SR-0020,Dennis Navarro,General Maintenance,Nitrile gloves Heavy Duty 100pk,50,31260.47,Low,Fulfilled,2026-06-30
+SR-0021,Alex Chen,Electrical & Diagnostics,Digital Multimeter Auto-Ranging,9,16636.08,Medium,Pending review,2026-03-04
+SR-0022,Carlo Tolentino,Body Shop & Fabrication,Air Compressor 50L 3HP,5,77628.71,Low,Approved,2026-08-11
+SR-0023,Bryan Bautista,Engine Repair,Mechanic Shop Towels 50pk,150,118324.66,Low,Approved,2026-04-11
+SR-0024,Ramon Soriano,Electrical & Diagnostics,Mechanic Plastic Creeper 40in,5,10079.20,Low,Fulfilled,2026-04-07
+SR-0025,Alex Chen,Engine Repair,Angle Grinder 4.5in 850W,5,14005.02,High,Fulfilled,2026-03-12
+SR-0026,Paolo Reyes,Engine Repair,Brake Caliper Piston Press Tool,6,7603.52,Medium,Pending review,2026-06-06
+SR-0027,Gerald Ramos,Electrical & Diagnostics,Combination Wrench Set 12pc,6,7646.90,Critical,Fulfilled,2026-05-28
+SR-0028,Paolo Reyes,General Maintenance,Socket Set 24pc Metric,10,24535.39,Low,In procurement,2026-05-21
+SR-0029,Jerome Mendoza,Body Shop & Fabrication,Hydraulic Floor Jack 3 Ton,1,6339.70,High,In procurement,2026-07-28
+SR-0030,Paolo Reyes,Engine Repair,Nitrile gloves Heavy Duty 100pk,240,160254.78,Medium,In procurement,2026-10-03
+SR-0031,Mark Anthony Santos,Body Shop & Fabrication,Pneumatic Impact Gun 1/2in,3,13950.49,Medium,Pending review,2026-05-31
+SR-0032,Francis Aquino,Engine Repair,Bearing Puller Separator Kit 9pc,10,30066.67,High,Pending review,2026-08-12
+SR-0033,Mark Anthony Santos,Body Shop & Fabrication,Bearing Puller Separator Kit 9pc,2,6595.97,High,Pending review,2026-02-24
+SR-0034,Bryan Bautista,Brake & Suspension,OBD2 Automotive Scanner Tool,11,44960.44,Medium,Pending review,2026-05-14
+SR-0035,Christian Dela Cruz,General Maintenance,Nitrile gloves Heavy Duty 100pk,300,200875.17,Critical,Pending review,2026-01-08
+SR-0036,Mark Anthony Santos,Brake & Suspension,Hydraulic Floor Jack 3 Ton,1,5779.63,Low,Approved,2026-06-29
+SR-0037,Carlo Tolentino,Electrical & Diagnostics,Pneumatic Impact Gun 1/2in,5,21503.29,Medium,In procurement,2026-08-25
+SR-0038,Mark Anthony Santos,Brake & Suspension,Bearing Puller Separator Kit 9pc,7,23418.53,High,Fulfilled,2026-07-19
+SR-0039,Gerald Ramos,Brake & Suspension,Brake Cleaner Spray 500ml,300,71396.33,Medium,Pending review,2026-03-04
+SR-0040,Alvin Castillo,General Maintenance,Socket Set 24pc Metric,11,28655.72,Medium,Pending review,2026-01-29
+SR-0041,Paolo Reyes,General Maintenance,Pneumatic Impact Gun 1/2in,1,4354.84,Low,Approved,2026-06-04
+SR-0042,Alvin Castillo,Engine Repair,Air Compressor 50L 3HP,2,29098.48,Medium,Pending review,2026-08-04
+SR-0043,Jonnel Garcia,Brake & Suspension,Combination Wrench Set 12pc,10,11928.28,High,Approved,2026-07-23
+SR-0044,Jonnel Garcia,Engine Repair,Hydraulic Floor Jack 3 Ton,1,5524.44,Medium,Approved,2026-06-11
+SR-0045,Christian Dela Cruz,Brake & Suspension,Combination Wrench Set 12pc,10,11946.27,High,Fulfilled,2026-05-16
+SR-0046,Bryan Bautista,Body Shop & Fabrication,Brake Cleaner Spray 500ml,20,4594.39,Medium,Pending review,2026-04-24
+SR-0047,Jonnel Garcia,Brake & Suspension,RTV Silicone Gasket Black 85g,300,82375.05,Medium,In procurement,2026-05-22
+SR-0048,Jerome Mendoza,Engine Repair,3-Jaw Oil Filter Wrench,7,2710.25,Medium,Fulfilled,2026-06-09
+SR-0049,Paolo Reyes,Electrical & Diagnostics,Mechanic Plastic Creeper 40in,4,7200.70,High,Rejected,2026-09-25
+SR-0050,Ramon Soriano,General Maintenance,Mechanic Plastic Creeper 40in,2,3561.74,Medium,In procurement,2026-03-12
+SR-0051,Alex Chen,Electrical & Diagnostics,Heavy Duty Hand Cleaner 3.78L,150,202025.95,High,Pending review,2026-01-23
+SR-0052,Dennis Navarro,Brake & Suspension,Heavy Duty Hand Cleaner 3.78L,100,136846.76,Low,Pending review,2026-07-19
+SR-0053,Francis Aquino,Brake & Suspension,Jack Stands 3 Ton Steel Pair,1,2545.44,High,Pending review,2026-05-30
+SR-0054,Kevin Villanueva,Body Shop & Fabrication,3-Jaw Oil Filter Wrench,4,1665.79,Low,In procurement,2026-01-05
+SR-0055,Neil Fernandez,Engine Repair,DOT 4 Brake Fluid 1L,240,115756.48,Critical,Rejected,2026-10-03
+SR-0056,Alex Chen,General Maintenance,Combination Wrench Set 12pc,7,9020.06,Low,Fulfilled,2026-09-21
+SR-0057,Gerald Ramos,Engine Repair,Synthetic Engine Oil 5W-30 4L,240,525569.78,Medium,Approved,2026-05-08
+SR-0058,Mark Anthony Santos,Body Shop & Fabrication,Socket Set 24pc Metric,9,20867.95,High,Pending review,2026-05-15
+SR-0059,Kevin Villanueva,Engine Repair,Mechanic Plastic Creeper 40in,1,1854.01,Critical,Pending review,2026-09-23
+SR-0060,Gerald Ramos,Electrical & Diagnostics,Bearing Puller Separator Kit 9pc,15,47355.14,Medium,Pending review,2026-02-14
+SR-0061,Kevin Villanueva,Brake & Suspension,OBD2 Automotive Scanner Tool,14,55823.62,Low,Approved,2026-06-19
+SR-0062,Neil Fernandez,Brake & Suspension,Brake Caliper Piston Press Tool,7,8544.48,High,Pending review,2026-06-28
+SR-0063,Alvin Castillo,Electrical & Diagnostics,Air Compressor 50L 3HP,4,56952.02,Medium,Approved,2026-03-07
+SR-0064,Francis Aquino,Engine Repair,Socket Set 24pc Metric,15,34836.37,Medium,Fulfilled,2026-05-15
+SR-0065,Francis Aquino,Body Shop & Fabrication,Hydraulic Floor Jack 3 Ton,3,19067.57,Medium,Pending review,2026-05-31
+SR-0066,Carlo Tolentino,Brake & Suspension,Mechanic Plastic Creeper 40in,4,7473.39,Medium,Pending review,2026-07-29
+SR-0067,Mark Anthony Santos,Body Shop & Fabrication,Bearing Puller Separator Kit 9pc,14,47238.04,Critical,Fulfilled,2026-10-07
+SR-0068,Jerome Mendoza,General Maintenance,DOT 4 Brake Fluid 1L,240,113101.25,Low,Approved,2026-03-30
+SR-0069,Francis Aquino,Electrical & Diagnostics,Heavy Duty Hand Cleaner 3.78L,200,242397.47,Medium,In procurement,2026-09-01
+SR-0070,Bryan Bautista,Brake & Suspension,Nitrile gloves Heavy Duty 100pk,20,13188.52,Medium,In procurement,2026-05-18
+SR-0071,Alex Chen,General Maintenance,Threadlocker Medium Blue 50ml,150,108998.39,Medium,In procurement,2026-07-09
+SR-0072,Jerome Mendoza,Engine Repair,Heavy Duty Hand Cleaner 3.78L,20,27434.70,Low,Rejected,2026-08-26
+SR-0073,Paolo Reyes,General Maintenance,Helicoil Thread Repair Kit M8,6,4909.48,Medium,Approved,2026-03-10
+SR-0074,Alex Chen,Electrical & Diagnostics,OBD2 Automotive Scanner Tool,8,29082.82,Medium,Approved,2026-04-29
+SR-0075,Bryan Bautista,Brake & Suspension,Socket Set 24pc Metric,7,16760.90,Medium,Approved,2026-06-17
+SR-0076,Ramon Soriano,Engine Repair,Mechanic Plastic Creeper 40in,4,7177.89,Medium,Approved,2026-08-27
+SR-0077,Gerald Ramos,Electrical & Diagnostics,OBD2 Automotive Scanner Tool,10,40900.81,Medium,Pending review,2026-01-28
+SR-0078,Christian Dela Cruz,Body Shop & Fabrication,RTV Silicone Gasket Black 85g,200,57052.05,Medium,Fulfilled,2026-09-25
+SR-0079,Bryan Bautista,Brake & Suspension,Carburetor Cleaner Spray 450ml,240,47838.22,Medium,Pending review,2026-03-31
+SR-0080,Dennis Navarro,Engine Repair,Mechanic Plastic Creeper 40in,1,2014.33,Critical,Pending review,2026-05-04
+SR-0081,Alvin Castillo,Electrical & Diagnostics,Digital Multimeter Auto-Ranging,15,28554.38,Medium,In procurement,2026-05-19
+SR-0082,Jonnel Garcia,Engine Repair,Heavy Duty Hand Cleaner 3.78L,240,301368.56,High,Approved,2026-10-04
+SR-0083,Jonnel Garcia,General Maintenance,Pneumatic Impact Gun 1/2in,5,23753.76,Low,Pending review,2026-02-01
+SR-0084,Francis Aquino,Electrical & Diagnostics,Jack Stands 3 Ton Steel Pair,2,4660.22,Critical,In procurement,2026-03-07
+SR-0085,Paolo Reyes,Body Shop & Fabrication,Combination Wrench Set 12pc,13,15568.25,Low,Pending review,2026-09-08
+SR-0086,Alex Chen,Engine Repair,Jack Stands 3 Ton Steel Pair,2,4930.50,High,Pending review,2026-07-28
+SR-0087,Bryan Bautista,Brake & Suspension,Angle Grinder 4.5in 850W,5,13623.58,Low,Pending review,2026-05-12
+SR-0088,Alex Chen,Engine Repair,Combination Wrench Set 12pc,10,12233.74,High,Approved,2026-08-10
+SR-0089,Paolo Reyes,Electrical & Diagnostics,Hydraulic Floor Jack 3 Ton,2,12171.22,Medium,Approved,2026-10-02
+SR-0090,Alvin Castillo,Body Shop & Fabrication,Mechanic Shop Towels 50pk,240,190036.14,Critical,In procurement,2026-08-14
+SR-0091,Neil Fernandez,General Maintenance,Synthetic Engine Oil 5W-30 4L,150,350083.11,Low,Pending review,2026-03-22
+SR-0092,Paolo Reyes,General Maintenance,Torque Wrench 1/2in Drive,12,38977.46,High,Rejected,2026-08-08
+SR-0093,Jonnel Garcia,Electrical & Diagnostics,Mechanic Plastic Creeper 40in,3,5511.52,Medium,Pending review,2026-09-24
+SR-0094,Francis Aquino,Brake & Suspension,3-Jaw Oil Filter Wrench,9,3754.15,Low,Pending review,2026-04-24
+SR-0095,Carlo Tolentino,Brake & Suspension,Brake Caliper Piston Press Tool,11,14368.15,Low,In procurement,2026-06-17
+SR-0096,Christian Dela Cruz,General Maintenance,Mechanic Shop Towels 50pk,500,375709.24,High,Approved,2026-09-29
+SR-0097,Francis Aquino,Body Shop & Fabrication,Jack Stands 3 Ton Steel Pair,1,2309.00,Low,Approved,2026-08-20
+SR-0098,Mark Anthony Santos,Body Shop & Fabrication,Brake Caliper Piston Press Tool,14,18319.36,Medium,Approved,2026-09-03
+SR-0099,Alex Chen,Brake & Suspension,Angle Grinder 4.5in 850W,3,8294.77,Low,Pending review,2026-10-01
+SR-0100,Alex Chen,Engine Repair,Brake Cleaner Spray 500ml,50,11691.76,Medium,In procurement,2026-06-21
+SR-0101,Kevin Villanueva,Engine Repair,Carburetor Cleaner Spray 450ml,150,28452.64,High,In procurement,2026-07-24
+SR-0102,Bryan Bautista,Body Shop & Fabrication,DOT 4 Brake Fluid 1L,20,9210.09,Medium,Approved,2026-02-28
+SR-0103,Neil Fernandez,General Maintenance,Air Compressor 50L 3HP,4,59300.68,Low,Fulfilled,2026-07-16
+SR-0104,Carlo Tolentino,Body Shop & Fabrication,Angle Grinder 4.5in 850W,3,8431.63,Medium,Pending review,2026-08-10
+SR-0105,Alex Chen,Engine Repair,3-Jaw Oil Filter Wrench,11,4516.19,Low,Approved,2026-07-08
+SR-0106,Christian Dela Cruz,Electrical & Diagnostics,Heavy Duty Hand Cleaner 3.78L,100,127324.13,High,Fulfilled,2026-08-01
+SR-0107,Alex Chen,Brake & Suspension,Hydraulic Floor Jack 3 Ton,2,11108.94,High,Pending review,2026-05-17
+SR-0108,Christian Dela Cruz,Electrical & Diagnostics,OBD2 Automotive Scanner Tool,4,16575.75,Low,In procurement,2026-03-01
+SR-0109,Ramon Soriano,Engine Repair,3-Jaw Oil Filter Wrench,13,5039.03,Critical,In procurement,2026-01-18
+SR-0110,Neil Fernandez,Brake & Suspension,Brake Cleaner Spray 500ml,200,42401.19,High,Pending review,2026-01-04
+SR-0111,Ramon Soriano,Body Shop & Fabrication,Carburetor Cleaner Spray 450ml,200,36506.47,High,Approved,2026-10-08
+SR-0112,Eduardo Flores,Engine Repair,Carburetor Cleaner Spray 450ml,20,3918.75,Medium,Approved,2026-02-14
+SR-0113,Ramon Soriano,Engine Repair,Nitrile gloves Heavy Duty 100pk,300,187464.86,Low,In procurement,2026-04-02
+SR-0114,Eduardo Flores,Electrical & Diagnostics,Combination Wrench Set 12pc,10,12248.81,High,Approved,2026-03-28
+SR-0115,Christian Dela Cruz,Engine Repair,Nitrile gloves Heavy Duty 100pk,240,143018.72,High,Rejected,2026-09-22
+SR-0116,Neil Fernandez,Engine Repair,Helicoil Thread Repair Kit M8,4,3580.22,Medium,Approved,2026-03-01
+SR-0117,Alex Chen,Body Shop & Fabrication,Brake Caliper Piston Press Tool,3,4105.76,Medium,Approved,2026-06-23
+SR-0118,Gerald Ramos,Brake & Suspension,Synthetic Engine Oil 5W-30 4L,20,46091.89,Medium,Approved,2026-05-06
+SR-0119,Paolo Reyes,Electrical & Diagnostics,Jack Stands 3 Ton Steel Pair,5,11418.87,Low,Fulfilled,2026-03-31
+SR-0120,Mark Anthony Santos,General Maintenance,Hydraulic Floor Jack 3 Ton,4,24651.72,Low,Rejected,2026-09-02

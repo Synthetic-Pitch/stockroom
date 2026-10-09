@@ -1,5 +1,5 @@
 import { ChevronDown, Plus, Search, X } from "lucide-react";
-import { useEffect, useState, type FormEvent, type ReactNode } from "react";
+import { useEffect, useRef, useState, type FormEvent, type ReactNode } from "react";
 import Navbar from "../components/navbar";
 
 type Metric = {
@@ -59,9 +59,9 @@ const initialDeliveries: Delivery[] = [
 ];
 
 const MetricCard = ({ label, value, note }: Metric) => (
-    <li className="rounded-lg border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:px-5 lg:py-6">
+    <li className="min-w-0 overflow-hidden rounded-lg border border-[#DDE5E8] bg-white px-4 py-5 shadow-sm lg:px-5 lg:py-6">
         <p className="text-xs font-medium text-[#7B8A91] lg:text-sm">{label}</p>
-        <p className="mt-4 text-2xl font-semibold leading-none text-[#22343A] lg:mt-5 lg:text-4xl">{value}</p>
+        <p className="mt-4 break-words text-2xl font-semibold leading-tight text-[#22343A] lg:mt-5 lg:text-4xl">{value}</p>
         <p className="mt-4 text-[10px] font-medium text-[#7B8A91] lg:mt-5 lg:text-xs">{note}</p>
     </li>
 );
@@ -77,10 +77,25 @@ const PrimaryButton = ({ children, onClick }: { children: ReactNode; onClick?: (
     </button>
 );
 
+const statusOptions = ["All statuses", "Today", "Tomorrow", "Later"];
+
+// Derive delivery window from the ETA text
+const getDeliveryWindow = (eta: string): string => {
+    const value = eta.toLowerCase();
+    if (value.includes("today")) return "Today";
+    if (value.includes("tomorrow")) return "Tomorrow";
+    return "Later";
+};
+
 const Deliveries = () => {
     const [deliveryItems, setDeliveryItems] = useState<Delivery[]>(initialDeliveries);
     const [isScheduleModalOpen, setIsScheduleModalOpen] = useState(false);
     const [searchQuery, setSearchQuery] = useState("");
+    const [statusFilter, setStatusFilter] = useState("All statuses");
+    const [isStatusOpen, setIsStatusOpen] = useState(false);
+
+    // Ref for the status dropdown (used to close it on outside click)
+    const statusRef = useRef<HTMLDivElement>(null);
 
     // Form inputs state
     const [formData, setFormData] = useState({
@@ -101,6 +116,27 @@ const Deliveries = () => {
         window.addEventListener("keydown", handleKeyDown);
         return () => window.removeEventListener("keydown", handleKeyDown);
     }, [isScheduleModalOpen]);
+
+    // Close status dropdown on outside click or Escape (only while it's open)
+    useEffect(() => {
+        if (!isStatusOpen) return;
+
+        const handleOutsideClick = (e: MouseEvent) => {
+            if (statusRef.current && !statusRef.current.contains(e.target as Node)) {
+                setIsStatusOpen(false);
+            }
+        };
+        const handleEscape = (e: KeyboardEvent) => {
+            if (e.key === "Escape") setIsStatusOpen(false);
+        };
+
+        window.addEventListener("mousedown", handleOutsideClick);
+        window.addEventListener("keydown", handleEscape);
+        return () => {
+            window.removeEventListener("mousedown", handleOutsideClick);
+            window.removeEventListener("keydown", handleEscape);
+        };
+    }, [isStatusOpen]);
 
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
         const { name, value } = e.target;
@@ -152,8 +188,13 @@ const Deliveries = () => {
         setIsScheduleModalOpen(false);
     };
 
-    // Filter deliveries based on search query
+    // Filter deliveries based on selected status and search query
     const filteredDeliveries = deliveryItems.filter((delivery) => {
+        // Status filter (derived from ETA: Today / Tomorrow / Later)
+        if (statusFilter !== "All statuses" && getDeliveryWindow(delivery.eta) !== statusFilter) {
+            return false;
+        }
+        // Search filter
         if (!searchQuery.trim()) return true;
         const q = searchQuery.toLowerCase();
         return (
@@ -207,13 +248,46 @@ const Deliveries = () => {
                                 enterKeyHint="search"
                             />
                         </label>
-                        <button
-                            type="button"
-                            className="flex items-center justify-between rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-xs font-medium text-[#9AA6AB] lg:w-[190px] lg:text-sm"
-                        >
-                            All statuses
-                            <ChevronDown className="size-4" aria-hidden="true" />
-                        </button>
+                        <div className="relative w-full lg:w-[190px]" ref={statusRef}>
+                            <button
+                                type="button"
+                                onClick={() => setIsStatusOpen((prev) => !prev)}
+                                aria-haspopup="true"
+                                aria-expanded={isStatusOpen}
+                                aria-label="Filter by status"
+                                className="flex w-full cursor-pointer items-center justify-between rounded-md border border-[#E1E8EA] bg-[#F5F7F8] px-4 py-3 text-xs font-medium text-[#9AA6AB] outline-none transition focus:border-[#07887D] lg:text-sm"
+                            >
+                                {statusFilter}
+                                <ChevronDown
+                                    className={`size-4 transition-transform duration-200 ${isStatusOpen ? "rotate-180" : ""}`}
+                                    aria-hidden="true"
+                                />
+                            </button>
+
+                            {isStatusOpen && (
+                                <ul className="absolute right-0 top-full z-10 mt-1 w-full overflow-hidden rounded-md border border-[#E1E8EA] bg-white py-1 shadow-lg">
+                                    {statusOptions.map((status) => (
+                                        <li key={status}>
+                                            <button
+                                                type="button"
+                                                onClick={() => {
+                                                    setStatusFilter(status);
+                                                    setIsStatusOpen(false);
+                                                }}
+                                                aria-pressed={statusFilter === status}
+                                                className={`block w-full cursor-pointer px-4 py-2.5 text-left text-xs transition hover:bg-[#F3F5F6] lg:text-sm ${
+                                                    statusFilter === status
+                                                        ? "font-semibold text-[#07887D]"
+                                                        : "text-[#22343A]"
+                                                }`}
+                                            >
+                                                {status}
+                                            </button>
+                                        </li>
+                                    ))}
+                                </ul>
+                            )}
+                        </div>
                     </div>
 
                     <div className="mt-4 overflow-x-auto lg:mt-5">
@@ -253,7 +327,7 @@ const Deliveries = () => {
 
                     <p className="mt-4 text-[10px] font-medium text-[#7B8A91] lg:text-xs">
                         Showing {filteredDeliveries.length} {filteredDeliveries.length === 1 ? "record" : "records"}{" "}
-                        {searchQuery ? "(filtered)" : "- Scroll to see all columns"}
+                        {searchQuery || statusFilter !== "All statuses" ? "(filtered)" : "- Scroll to see all columns"}
                     </p>
                 </section>
 

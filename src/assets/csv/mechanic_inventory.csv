@@ -1,0 +1,501 @@
+SKU,Item_Name,Category,Location,Quantity,Status,Unit_Price_PHP,Bulk_Total_Value_PHP,Arrival_Date
+HT-PWR-10IN,Pipe Wrench - 10in,Hand Tools,H-01-03,22,Reserved,2000.69,44015.18,2026-08-04
+SM-ENG-PRP,Engine Specialty - Piston Ring Pliers,Specialty Mechanic Tools,A-01-03,137,In stock,2197.48,301054.76,2026-02-11
+HT-ADW-6IN,Adjustable Wrench - 6in,Hand Tools,D-09-07,4,Low stock,693.68,2774.72,2026-04-18
+SE-ENG-ES1,Engine Crane & Stand - Engine Stand 1000lbs,Lifting & Shop Equipment,G-05-04,15,Reserved,20668.55,310028.25,2026-02-09
+WS-SPR-BCS5,Aerosol Spray - Brake Cleaner Spray 500ml,Workshop Supplies & Fluids,B-08-01,249,In stock,282.64,70377.36,2026-06-08
+HT-WSC-HDCC,Wire Tool - Heavy Duty Cable Cutter,Hand Tools,H-04-06,219,In stock,895.31,196072.89,2026-09-13
+HT-PLR-CIEX,Pliers - Circlip External,Hand Tools,F-01-03,18,Reserved,811.78,14612.04,2026-09-26
+DE-IRT-TIC,Thermometer - Thermal Imaging Camera,Diagnostic & Electrical,G-05-09,10,Inspection,10804.60,108046.00,2026-01-13
+SM-BRK-VBBK,Brake Tool - Vacuum Brake Bleeder Kit,Specialty Mechanic Tools,B-03-07,10,Inspection,2863.49,28634.90,2026-08-08
+SE-STD-6THD,Jack Stands - 6 Ton Heavy Duty Pair,Lifting & Shop Equipment,H-09-03,1,Low stock,6181.04,6181.04,2026-08-22
+WS-GRS-AP2,Grease & Lubricant - Anti-Seize Paste 200g,Workshop Supplies & Fluids,G-09-04,172,In stock,499.08,85841.76,2026-09-14
+WS-GRS-SGT1,Grease & Lubricant - Silicone Grease Tube 100g,Workshop Supplies & Fluids,A-02-01,152,In stock,426.85,64881.20,2026-01-17
+PT-CUT-C31,Cut-Off Tool - Cordless 3in 12V,Power Tools,C-05-07,14,Reserved,3940.11,55161.54,2026-05-14
+WS-GRS-SGT11,Grease & Lubricant - Silicone Grease Tube 100g,Workshop Supplies & Fluids,H-01-05,4,Low stock,471.42,1885.68,2026-01-18
+DE-TST-BLT1,Tester - Battery Load Tester 100A,Diagnostic & Electrical,D-03-05,278,In stock,3498.86,972683.08,2026-08-20
+PT-POL-CMP,Polisher & Buffer - Cordless Mini Polisher,Power Tools,G-03-07,151,In stock,5801.94,876092.94,2026-07-09
+HT-TRQ-DI12,Torque Wrench - Digital 1/2in,Hand Tools,A-01-01,5,Reserved,2780.60,13903.00,2026-08-20
+SM-ENG-VSC,Engine Specialty - Valve Spring Compressor,Specialty Mechanic Tools,H-08-06,76,In stock,1856.52,141095.52,2026-01-23
+SM-PLR-BSK9,Puller Set - Bearing Separator Kit 9pc,Specialty Mechanic Tools,B-07-04,266,In stock,1556.90,414135.40,2026-04-25
+SE-STD-1TCP,Jack Stands - 12 Ton Commercial Pair,Lifting & Shop Equipment,F-03-05,58,In stock,6136.57,355921.06,2026-03-23
+PT-CUT-C311,Cut-Off Tool - Cordless 3in 12V,Power Tools,G-06-02,91,In stock,3096.95,281822.45,2026-04-11
+SE-JCK-HT2T,Floor Jack - Hydraulic Trolley 2 Ton,Lifting & Shop Equipment,E-05-02,192,In stock,5820.94,1117620.48,2026-01-14
+HT-HMR-RM1,Hammer - Rubber Mallet 16oz,Hand Tools,B-05-08,181,In stock,794.58,143818.98,2026-09-12
+SE-STD-3TSP,Jack Stands - 3 Ton Steel Pair,Lifting & Shop Equipment,F-08-02,187,In stock,4613.25,862677.75,2026-04-30
+WS-CNS-STR5,Shop Consumables - Shop Towels Roll 55 Sheets,Workshop Supplies & Fluids,A-06-02,103,In stock,765.67,78864.01,2026-01-25
+SE-CRP-AHS,Creepers & Seats - Adjustable Hydraulic Stool,Lifting & Shop Equipment,G-07-03,7,Reserved,3048.46,21339.22,2026-04-22
+SM-BRK-VBBK1,Brake Tool - Vacuum Brake Bleeder Kit,Specialty Mechanic Tools,F-04-04,154,In stock,2400.61,369693.94,2026-08-01
+HT-PLR-SJ8,Pliers - Slip Joint 8in,Hand Tools,G-03-06,252,In stock,381.04,96022.08,2026-08-01
+DE-GST-FIPK,Pressure Gauge Set - Fuel Injection Pressure Kit,Diagnostic & Electrical,G-06-09,76,In stock,2960.39,224989.64,2026-09-26
+DE-IRT-ILG5,Thermometer - Infrared Laser Gun -50 to 550C,Diagnostic & Electrical,F-07-07,62,In stock,15814.90,980523.80,2026-06-19
+SE-RMP-RWCP,Shop Ramps & Chocks - Rubber Wheel Chocks Pair,Lifting & Shop Equipment,E-05-01,95,In stock,1349.95,128245.25,2026-04-21
+HT-PCH-BP1,Punch & Chisel - Brass Punch 1/2in,Hand Tools,H-02-08,124,In stock,678.01,84073.24,2026-05-31
+SM-PLR-BHBP,Puller Set - Blind Hole Bearing Puller,Specialty Mechanic Tools,F-05-06,1,Low stock,1445.74,1445.74,2026-03-29
+HT-HEX-HMS9,Hex & Torx Keys - Hex Metric Set 9pc,Hand Tools,H-09-07,2,Low stock,1001.89,2003.78,2026-02-24
+SM-PLR-BSK91,Puller Set - Bearing Separator Kit 9pc,Specialty Mechanic Tools,C-01-04,176,In stock,3732.30,656884.80,2026-05-14
+DE-SCN-CRB,OBD2 Scanner - Code Reader Basic,Diagnostic & Electrical,F-03-02,11,Reserved,10585.45,116439.95,2026-01-08
+HT-RTC-38DR,Ratchet Handle - 3/8in Drive,Hand Tools,D-09-08,194,In stock,481.02,93317.88,2026-08-22
+SM-THR-HKM,Thread Repair - Helicoil Kit M6x1.0,Specialty Mechanic Tools,H-05-06,125,In stock,2993.05,374131.25,2026-08-25
+SE-BTL-H2T,Bottle Jack - Hydraulic 20 Ton,Lifting & Shop Equipment,E-09-03,143,In stock,7783.47,1113036.21,2026-05-30
+DE-SCN-BST,OBD2 Scanner - Bi-Directional Scan Tool,Diagnostic & Electrical,D-06-09,184,In stock,21227.92,3905937.28,2026-03-04
+DE-IRT-TIC1,Thermometer - Thermal Imaging Camera,Diagnostic & Electrical,E-03-09,20,Reserved,6478.28,129565.60,2026-04-12
+SM-OFR-3FW,Oil Filter Tool - 3-Jaw Filter Wrench,Specialty Mechanic Tools,B-06-03,34,In stock,484.26,16464.84,2026-09-25
+DE-CAM-WSA,Inspection Camera - Wireless Scope Android/iOS,Diagnostic & Electrical,H-03-08,232,In stock,7349.21,1705016.72,2026-03-06
+DE-GST-OPTG,Pressure Gauge Set - Oil Pressure Test Gauge,Diagnostic & Electrical,B-06-03,2,Low stock,3230.21,6460.42,2026-04-04
+SM-OFR-PTFW,Oil Filter Tool - Pliers Type Filter Wrench,Specialty Mechanic Tools,A-03-06,2,Low stock,1669.31,3338.62,2026-01-09
+DE-CAM-DLE4,Inspection Camera - Dual Lens Endoscope 4.3in,Diagnostic & Electrical,H-09-03,4,Inspection,4211.02,16844.08,2026-02-15
+PT-CMP-DD22,Air Compressor - Direct Drive 2HP 24L,Power Tools,D-04-02,10,Inspection,26981.72,269817.20,2026-06-24
+WS-GSK-TMB5,Gasket & Sealant - Threadlocker Medium Blue 50ml,Workshop Supplies & Fluids,F-09-05,2,Low stock,161.07,322.14,2026-01-30
+PT-CMP-BD35,Air Compressor - Belt Drive 3HP 50L,Power Tools,E-05-09,15,Reserved,35707.73,535615.95,2026-04-30
+SM-SCK-OSS2,Socket Specialty - Oxygen Sensor Socket 22mm,Specialty Mechanic Tools,F-08-03,198,In stock,814.58,161286.84,2026-08-23
+SM-SCK-WNIS,Socket Specialty - Wheel Nut Impact Socket Set,Specialty Mechanic Tools,C-04-04,174,In stock,1771.85,308301.90,2026-03-23
+WS-GRS-HTBG,Grease & Lubricant - High Temp Bearing Grease 500g,Workshop Supplies & Fluids,G-06-05,196,In stock,456.37,89448.52,2026-07-29
+HT-HEX-HSS9,Hex & Torx Keys - Hex SAE Set 9pc,Hand Tools,B-07-07,150,In stock,306.73,46009.50,2026-02-21
+HT-HMR-BP2,Hammer - Ball Peen 24oz,Hand Tools,H-03-02,172,In stock,1614.20,277642.40,2026-01-23
+SE-PAN-PFE9,Oil Drain & Extractor - Pneumatic Fluid Extractor 9L,Lifting & Shop Equipment,E-09-03,87,In stock,7926.51,689606.37,2026-06-20
+SM-PLR-BSK92,Puller Set - Bearing Separator Kit 9pc,Specialty Mechanic Tools,C-01-05,112,In stock,988.77,110742.24,2026-05-30
+DE-CAM-DLE41,Inspection Camera - Dual Lens Endoscope 4.3in,Diagnostic & Electrical,H-09-06,5,Inspection,3868.31,19341.55,2026-01-05
+SM-THR-TADS,Thread Repair - Tap and Die Set 40pc,Specialty Mechanic Tools,C-02-04,290,In stock,3032.85,879526.50,2026-09-22
+HT-SCK-1D2,Socket Set - 1/2in Drive 24pc,Hand Tools,G-05-06,74,In stock,2817.70,208509.80,2026-01-02
+DE-SCN-PBD,OBD2 Scanner - Professional Bluetooth Dongle,Diagnostic & Electrical,B-06-04,142,In stock,8100.39,1150255.38,2026-02-24
+DE-GST-CTE,Pressure Gauge Set - Compression Tester Engine,Diagnostic & Electrical,D-03-08,4,Low stock,5838.38,23353.52,2026-06-04
+WS-OIL-S14,Engine Oil - Semi-Synthetic 10W-40 4L,Workshop Supplies & Fluids,G-06-01,299,In stock,1964.80,587475.20,2026-05-07
+DE-TMG-ISL,Engine Timing & Strobe - Inductive Strobe Light,Diagnostic & Electrical,B-01-09,50,In stock,3255.95,162797.50,2026-09-11
+DE-TST-BFTP,Tester - Brake Fluid Tester Pen,Diagnostic & Electrical,E-01-07,184,In stock,789.40,145249.60,2026-09-10
+SE-PRS-HB1T,Shop Press - Hydraulic Benchtop 10 Ton,Lifting & Shop Equipment,E-04-08,193,In stock,11643.77,2247247.61,2026-07-29
+SM-SUS-TRER,Suspension & Steering - Tie Rod End Remover,Specialty Mechanic Tools,F-05-01,2,Low stock,1198.04,2396.08,2026-05-18
+DE-IRT-ILG51,Thermometer - Infrared Laser Gun -50 to 550C,Diagnostic & Electrical,D-03-09,4,Low stock,6498.61,25994.44,2026-03-16
+SM-THR-HKM1,Thread Repair - Helicoil Kit M10x1.5,Specialty Mechanic Tools,B-06-01,10,Inspection,1094.31,10943.10,2026-05-18
+DE-CAM-DLE42,Inspection Camera - Dual Lens Endoscope 4.3in,Diagnostic & Electrical,E-02-05,296,In stock,5427.53,1606548.88,2026-07-29
+DE-SCN-BST1,OBD2 Scanner - Bi-Directional Scan Tool,Diagnostic & Electrical,G-05-08,5,Low stock,21914.75,109573.75,2026-04-18
+SE-PRS-HP2T,Shop Press - Hydraulic Press 20 Ton,Lifting & Shop Equipment,A-02-02,8,Reserved,13787.13,110297.04,2026-05-17
+SM-THR-HKM2,Thread Repair - Helicoil Kit M10x1.5,Specialty Mechanic Tools,G-01-02,227,In stock,809.15,183677.05,2026-09-05
+DE-SCN-CRB1,OBD2 Scanner - Code Reader Basic,Diagnostic & Electrical,E-02-02,152,In stock,18465.76,2806795.52,2026-01-10
+PT-HTG-2DTC,Heat Gun - 2000W Digital Temp Control,Power Tools,C-04-04,299,In stock,2102.23,628566.77,2026-01-06
+HT-SCK-1D21,Socket Set - 1/2in Drive 24pc,Hand Tools,H-06-09,9,Reserved,4398.94,39590.46,2026-03-29
+WS-SPR-BCS51,Aerosol Spray - Brake Cleaner Spray 500ml,Workshop Supplies & Fluids,B-04-03,83,In stock,284.88,23645.04,2026-01-15
+DE-GST-CTE1,Pressure Gauge Set - Compression Tester Engine,Diagnostic & Electrical,F-09-06,2,Low stock,2222.61,4445.22,2026-06-24
+DE-TST-SPGG,Tester - Spark Plug Gap Gauge,Diagnostic & Electrical,D-02-05,182,In stock,2375.91,432415.62,2026-01-19
+WS-GRS-HTBG1,Grease & Lubricant - High Temp Bearing Grease 500g,Workshop Supplies & Fluids,F-09-01,3,Low stock,192.41,577.23,2026-04-12
+DE-TST-DBA1,Tester - Digital Battery Analyzer 12V/24V,Diagnostic & Electrical,H-04-02,126,In stock,3228.93,406845.18,2026-01-28
+SE-BTL-H2T1,Bottle Jack - Hydraulic 20 Ton,Lifting & Shop Equipment,G-06-04,275,In stock,8747.31,2405510.25,2026-06-16
+SE-PRS-HP2T1,Shop Press - Hydraulic Press 20 Ton,Lifting & Shop Equipment,D-03-03,104,In stock,13933.75,1449110.00,2026-09-28
+SM-SCK-WNIS1,Socket Specialty - Wheel Nut Impact Socket Set,Specialty Mechanic Tools,A-04-03,9,Reserved,1310.84,11797.56,2026-08-26
+PT-DIE-CO18,Die Grinder - Cordless 18V,Power Tools,C-07-01,278,In stock,3355.13,932726.14,2026-05-19
+WS-GRS-HTBG2,Grease & Lubricant - High Temp Bearing Grease 500g,Workshop Supplies & Fluids,E-06-04,3,Low stock,498.57,1495.71,2026-07-20
+SM-ENG-CPH,Engine Specialty - Crankshaft Pulley Holder,Specialty Mechanic Tools,B-08-04,93,In stock,837.51,77888.43,2026-03-09
+WS-GSK-RSB8,Gasket & Sealant - RTV Silicone Black 85g,Workshop Supplies & Fluids,D-08-01,11,Reserved,705.35,7758.85,2026-04-02
+PT-RAT-1DHD,Air Ratchet Wrench - 1/2in Drive Heavy Duty,Power Tools,C-04-03,101,In stock,3924.91,396415.91,2026-01-28
+PT-GRN-7I22,Angle Grinder - 7in 2200W,Power Tools,A-04-03,294,In stock,5024.06,1477073.64,2026-06-03
+PT-CMP-SO5,Air Compressor - Silent Oil-Free 50L,Power Tools,B-09-06,223,In stock,34472.80,7687434.40,2026-06-16
+PT-CMP-DD221,Air Compressor - Direct Drive 2HP 24L,Power Tools,H-04-07,195,In stock,21331.38,4159619.10,2026-05-12
+DE-IRT-ILG52,Thermometer - Infrared Laser Gun -50 to 550C,Diagnostic & Electrical,F-04-01,61,In stock,3741.25,228216.25,2026-08-10
+PT-GRN-4C1,Angle Grinder - 4.5in Cordless 18V,Power Tools,E-07-04,5,Inspection,2962.03,14810.15,2026-03-23
+SM-SCK-WNIS2,Socket Specialty - Wheel Nut Impact Socket Set,Specialty Mechanic Tools,C-06-08,200,In stock,1467.52,293504.00,2026-06-08
+WS-CNS-MWGL,Shop Consumables - Mechanic Work Gloves Large,Workshop Supplies & Fluids,B-02-04,261,In stock,1180.58,308131.38,2026-04-19
+WS-FLD-D4BF,Automotive Fluid - DOT 4 Brake Fluid 1L,Workshop Supplies & Fluids,B-05-01,95,In stock,696.31,66149.45,2026-03-30
+PT-POL-R71,Polisher & Buffer - Rotary 7in 1200W,Power Tools,A-04-05,8,Inspection,8786.31,70290.48,2026-03-16
+WS-CNS-NGHD,Shop Consumables - Nitrile Gloves Heavy Duty 100pk,Workshop Supplies & Fluids,G-01-03,19,In stock,487.21,9256.99,2026-09-24
+SE-ENG-ES11,Engine Crane & Stand - Engine Stand 1000lbs,Lifting & Shop Equipment,H-01-07,88,In stock,12554.83,1104825.04,2026-04-24
+DE-GST-OPTG1,Pressure Gauge Set - Oil Pressure Test Gauge,Diagnostic & Electrical,D-02-09,182,In stock,4444.84,808960.88,2026-02-10
+SE-WSH-SPW2,Parts Washer - Standing Parts Washer 20 Gal,Lifting & Shop Equipment,B-03-02,5,Low stock,7732.61,38663.05,2026-05-22
+DE-SCN-CRB2,OBD2 Scanner - Code Reader Basic,Diagnostic & Electrical,H-02-02,246,In stock,14656.75,3605560.50,2026-02-25
+SE-WSH-SPW21,Parts Washer - Standing Parts Washer 20 Gal,Lifting & Shop Equipment,B-07-03,178,In stock,7688.50,1368553.00,2026-01-14
+HT-PLR-NN6,Pliers - Needle Nose 6in,Hand Tools,A-06-03,3,Reserved,367.72,1103.16,2026-02-06
+SM-ENG-VSC1,Engine Specialty - Valve Spring Compressor,Specialty Mechanic Tools,B-09-04,3,Low stock,2152.50,6457.50,2026-06-07
+SE-CRP-RMS,Creepers & Seats - Rolling Mechanic Stool,Lifting & Shop Equipment,F-01-05,139,In stock,3064.11,425911.29,2026-05-03
+SM-SCK-OSS21,Socket Specialty - Oxygen Sensor Socket 22mm,Specialty Mechanic Tools,F-05-09,109,In stock,944.64,102965.76,2026-04-07
+HT-PCH-CC3,Punch & Chisel - Cold Chisel 3/4in,Hand Tools,G-03-07,23,In stock,711.02,16353.46,2026-04-22
+SE-JCK-AR2T,Floor Jack - Aluminum Racing 2 Ton,Lifting & Shop Equipment,D-09-07,281,In stock,9496.80,2668600.80,2026-05-17
+SE-JCK-HDS3,Floor Jack - Heavy Duty Steel 3.5 Ton,Lifting & Shop Equipment,B-05-09,286,In stock,7800.60,2230971.60,2026-07-08
+PT-CUT-PN3I,Cut-Off Tool - Pneumatic 3in,Power Tools,B-04-01,71,In stock,3230.78,229385.38,2026-08-01
+SE-JCK-LP3T,Floor Jack - Low Profile 3 Ton,Lifting & Shop Equipment,G-06-07,101,In stock,4028.78,406906.78,2026-05-17
+DE-SCN-PBD1,OBD2 Scanner - Professional Bluetooth Dongle,Diagnostic & Electrical,H-09-08,9,Reserved,5021.98,45197.82,2026-03-01
+SE-RMP-RWCP1,Shop Ramps & Chocks - Rubber Wheel Chocks Pair,Lifting & Shop Equipment,G-05-06,9,Inspection,730.12,6571.08,2026-01-18
+PT-HTG-16ST,Heat Gun - 1600W Standard,Power Tools,D-05-07,48,In stock,1488.93,71468.64,2026-04-15
+HT-ADW-15IN,Adjustable Wrench - 15in,Hand Tools,A-09-02,147,In stock,874.64,128572.08,2026-03-27
+SM-THR-HKM3,Thread Repair - Helicoil Kit M8x1.25,Specialty Mechanic Tools,C-08-09,195,In stock,1811.98,353336.10,2026-07-21
+SE-BTL-H1T,Bottle Jack - Hydraulic 10 Ton,Lifting & Shop Equipment,B-02-02,299,In stock,1103.12,329832.88,2026-08-14
+WS-GSK-RSRH,Gasket & Sealant - RTV Silicone Red High Temp,Workshop Supplies & Fluids,G-04-04,117,In stock,245.25,28694.25,2026-06-22
+SE-ENG-ES1R,Engine Crane & Stand - Engine Stand 1500lbs Rotating,Lifting & Shop Equipment,E-04-02,24,In stock,15317.04,367608.96,2026-02-08
+WS-FLD-GL81,Automotive Fluid - Gear Lube 80W-90 1L,Workshop Supplies & Fluids,B-08-09,4,Low stock,763.48,3053.92,2026-06-15
+PT-HTG-16ST1,Heat Gun - 1600W Standard,Power Tools,G-03-06,1,Low stock,1206.57,1206.57,2026-08-03
+WS-GSK-TMB51,Gasket & Sealant - Threadlocker Medium Blue 50ml,Workshop Supplies & Fluids,D-02-07,25,In stock,493.99,12349.75,2026-05-02
+HT-PLR-DC7,Pliers - Diagonal Cutting 7in,Hand Tools,D-08-09,106,In stock,910.36,96498.16,2026-01-06
+HT-PWR-14IN,Pipe Wrench - 14in,Hand Tools,F-09-06,139,In stock,1708.83,237527.37,2026-03-23
+SM-ENG-PRP1,Engine Specialty - Piston Ring Pliers,Specialty Mechanic Tools,D-09-04,285,In stock,653.78,186327.30,2026-03-17
+SE-ENG-EH2T,Engine Crane & Stand - Engine Hoist 2 Ton Foldable,Lifting & Shop Equipment,E-08-04,92,In stock,11831.12,1088463.04,2026-01-03
+SE-BTL-H4T,Bottle Jack - Hydraulic 4 Ton,Lifting & Shop Equipment,E-08-08,49,In stock,2680.76,131357.24,2026-05-21
+SE-WSH-SPW22,Parts Washer - Standing Parts Washer 20 Gal,Lifting & Shop Equipment,F-09-04,4,Low stock,5282.59,21130.36,2026-06-01
+DE-IRT-ILG53,Thermometer - Infrared Laser Gun -50 to 550C,Diagnostic & Electrical,C-07-03,119,In stock,2644.31,314672.89,2026-05-31
+WS-GRS-HTBG3,Grease & Lubricant - High Temp Bearing Grease 500g,Workshop Supplies & Fluids,B-03-05,99,In stock,674.55,66780.45,2026-04-28
+SE-STD-1TCP1,Jack Stands - 12 Ton Commercial Pair,Lifting & Shop Equipment,H-08-02,121,In stock,3243.53,392467.13,2026-06-05
+SM-ENG-PRP2,Engine Specialty - Piston Ring Pliers,Specialty Mechanic Tools,D-01-06,246,In stock,2058.53,506398.38,2026-03-31
+SM-PLR-3GP4,Puller Set - 3-Jaw Gear Puller 4in,Specialty Mechanic Tools,C-02-03,3,Low stock,4469.38,13408.14,2026-08-09
+WS-GSK-RSRH1,Gasket & Sealant - RTV Silicone Red High Temp,Workshop Supplies & Fluids,A-07-07,269,In stock,444.73,119632.37,2026-06-07
+WS-OIL-DEO1,Engine Oil - Diesel Engine Oil 15W-40 6L,Workshop Supplies & Fluids,C-08-07,226,In stock,2057.52,464999.52,2026-09-19
+DE-IRT-TIC2,Thermometer - Thermal Imaging Camera,Diagnostic & Electrical,G-06-08,214,In stock,15529.13,3323233.82,2026-04-23
+HT-PLR-CIEX1,Pliers - Circlip External,Hand Tools,D-01-07,201,In stock,550.48,110646.48,2026-07-13
+DE-IRT-ILG54,Thermometer - Infrared Laser Gun -50 to 550C,Diagnostic & Electrical,H-08-03,266,In stock,2738.38,728409.08,2026-07-21
+SE-STD-6THD1,Jack Stands - 6 Ton Heavy Duty Pair,Lifting & Shop Equipment,B-01-06,294,In stock,4194.81,1233274.14,2026-02-21
+HT-TRQ-DI121,Torque Wrench - Digital 1/2in,Hand Tools,H-09-03,279,In stock,2624.93,732355.47,2026-02-20
+SE-CRP-RMS1,Creepers & Seats - Rolling Mechanic Stool,Lifting & Shop Equipment,E-03-08,48,In stock,2007.57,96363.36,2026-03-19
+SE-PAN-WODT,Oil Drain & Extractor - Waste Oil Drain Tank 18 Gal,Lifting & Shop Equipment,H-01-01,2,Low stock,5402.62,10805.24,2026-09-06
+DE-CAM-B18,Inspection Camera - Borescope 1080P 8mm,Diagnostic & Electrical,F-06-05,91,In stock,2554.07,232420.37,2026-08-27
+HT-HMR-RM11,Hammer - Rubber Mallet 16oz,Hand Tools,F-08-07,25,In stock,1463.13,36578.25,2026-08-05
+HT-SDR-FL5M,Screwdriver - Flathead 5mm,Hand Tools,A-06-04,65,In stock,201.58,13102.70,2026-07-28
+PT-POL-CMP1,Polisher & Buffer - Cordless Mini Polisher,Power Tools,D-02-03,283,In stock,2887.68,817213.44,2026-08-06
+HT-PWR-14IN1,Pipe Wrench - 14in,Hand Tools,D-03-04,172,In stock,498.86,85803.92,2026-08-11
+HT-WSC-RACR,Wire Tool - Ratchet Crimper,Hand Tools,B-01-04,4,Low stock,897.34,3589.36,2026-05-16
+DE-GST-VFPT,Pressure Gauge Set - Vacuum & Fuel Pump Tester,Diagnostic & Electrical,C-03-06,283,In stock,5800.43,1641521.69,2026-09-28
+SE-ENG-EH2T1,Engine Crane & Stand - Engine Hoist 2 Ton Foldable,Lifting & Shop Equipment,D-07-01,250,In stock,13666.05,3416512.50,2026-07-31
+WS-SPR-CC4,Aerosol Spray - Carburetor Cleaner 450ml,Workshop Supplies & Fluids,F-06-03,5,Low stock,315.70,1578.50,2026-03-25
+DE-IRT-TIC3,Thermometer - Thermal Imaging Camera,Diagnostic & Electrical,A-01-02,141,In stock,17664.68,2490719.88,2026-04-12
+SM-ENG-PRC4,Engine Specialty - Piston Ring Compressor 4in,Specialty Mechanic Tools,E-03-03,1,Low stock,2067.16,2067.16,2026-07-27
+WS-GRS-SGT12,Grease & Lubricant - Silicone Grease Tube 100g,Workshop Supplies & Fluids,F-04-09,205,In stock,526.98,108030.90,2026-08-20
+SM-PLR-BHBP1,Puller Set - Blind Hole Bearing Puller,Specialty Mechanic Tools,E-08-09,197,In stock,2674.59,526894.23,2026-06-29
+DE-IRT-TIC4,Thermometer - Thermal Imaging Camera,Diagnostic & Electrical,H-06-06,37,In stock,1026.86,37993.82,2026-01-12
+WS-SPR-DHD5,Aerosol Spray - Degreaser Heavy Duty 500ml,Workshop Supplies & Fluids,E-02-06,1,Low stock,374.64,374.64,2026-08-10
+DE-GST-RPT1,Pressure Gauge Set - Radiator Pressure Tester 14pc,Diagnostic & Electrical,A-01-03,6,Inspection,6051.05,36306.30,2026-04-16
+PT-IMP-C11,Impact Wrench - Cordless 18V 1/2in,Power Tools,H-08-04,202,In stock,6017.66,1215567.32,2026-08-22
+HT-HEX-HMS91,Hex & Torx Keys - Hex Metric Set 9pc,Hand Tools,C-09-01,229,In stock,517.76,118567.04,2026-03-01
+WS-OIL-FS54,Engine Oil - Fully Synthetic 5W-30 4L,Workshop Supplies & Fluids,A-05-02,213,In stock,2716.46,578605.98,2026-03-12
+SE-RMP-RWCP2,Shop Ramps & Chocks - Rubber Wheel Chocks Pair,Lifting & Shop Equipment,F-02-05,3,Low stock,681.18,2043.54,2026-07-09
+SM-THR-TADS1,Thread Repair - Tap and Die Set 40pc,Specialty Mechanic Tools,B-09-01,174,In stock,972.97,169296.78,2026-05-17
+WS-GSK-RSRH2,Gasket & Sealant - RTV Silicone Red High Temp,Workshop Supplies & Fluids,F-07-06,50,In stock,562.81,28140.50,2026-07-31
+SE-WSH-BPW3,Parts Washer - Benchtop Parts Washer 3.5 Gal,Lifting & Shop Equipment,B-06-06,63,In stock,9710.72,611775.36,2026-08-09
+PT-RAT-1DHD1,Air Ratchet Wrench - 1/2in Drive Heavy Duty,Power Tools,E-01-06,120,In stock,3266.69,392002.80,2026-03-23
+WS-SPR-BCS52,Aerosol Spray - Brake Cleaner Spray 500ml,Workshop Supplies & Fluids,A-09-07,212,In stock,355.04,75268.48,2026-07-04
+SE-BTL-H4T1,Bottle Jack - Hydraulic 4 Ton,Lifting & Shop Equipment,G-09-08,156,In stock,3804.72,593536.32,2026-04-23
+PT-DRL-1HD,Cordless Drill - 18V Hammer Drill,Power Tools,G-08-08,71,In stock,2821.98,200360.58,2026-02-07
+WS-FLD-CF1,Automotive Fluid - CVT Fluid 1L,Workshop Supplies & Fluids,C-02-04,2,Low stock,571.69,1143.38,2026-03-18
+PT-CMP-SO51,Air Compressor - Silent Oil-Free 50L,Power Tools,E-06-03,256,In stock,28018.38,7172705.28,2026-04-08
+PT-GRN-5I11,Angle Grinder - 5in 1100W,Power Tools,B-07-04,22,Reserved,4194.83,92286.26,2026-05-27
+SM-OFR-CWS1,Oil Filter Tool - Cap Wrench Set 14pc,Specialty Mechanic Tools,F-09-09,156,In stock,1601.43,249823.08,2026-01-18
+DE-MMT-AUAU,Multimeter - Automotive Auto-Ranging,Diagnostic & Electrical,B-03-07,25,Reserved,2426.13,60653.25,2026-04-17
+DE-SCN-PBD2,OBD2 Scanner - Professional Bluetooth Dongle,Diagnostic & Electrical,G-01-05,1,Low stock,23261.88,23261.88,2026-06-11
+DE-TST-BFTP1,Tester - Brake Fluid Tester Pen,Diagnostic & Electrical,A-08-07,39,In stock,3696.45,144161.55,2026-05-30
+SE-BTL-H1T1,Bottle Jack - Hydraulic 10 Ton,Lifting & Shop Equipment,A-04-04,3,Reserved,6116.03,18348.09,2026-06-11
+PT-IMP-C31,Impact Wrench - Compact 3/8in 12V,Power Tools,F-02-08,281,In stock,4531.58,1273373.98,2026-06-21
+SM-THR-HKM4,Thread Repair - Helicoil Kit M8x1.25,Specialty Mechanic Tools,G-03-01,5,Low stock,567.51,2837.55,2026-09-08
+WS-GRS-LGT4,Grease & Lubricant - Lithium Grease Tube 400g,Workshop Supplies & Fluids,C-05-09,200,In stock,536.45,107290.00,2026-05-11
+SM-THR-HKM5,Thread Repair - Helicoil Kit M10x1.5,Specialty Mechanic Tools,A-03-04,56,In stock,2643.42,148031.52,2026-08-10
+SE-JCK-HT2T1,Floor Jack - Hydraulic Trolley 2 Ton,Lifting & Shop Equipment,F-01-09,18,Reserved,6593.43,118681.74,2026-03-03
+WS-CNS-NGHD1,Shop Consumables - Nitrile Gloves Heavy Duty 100pk,Workshop Supplies & Fluids,F-04-01,139,In stock,1204.46,167419.94,2026-04-26
+WS-FLD-ADV1,Automotive Fluid - ATF Dexron VI 1L,Workshop Supplies & Fluids,B-05-08,19,In stock,841.31,15984.89,2026-01-20
+WS-GSK-THSR,Gasket & Sealant - Threadlocker High Strength Red 50ml,Workshop Supplies & Fluids,C-05-06,82,In stock,376.32,30858.24,2026-06-04
+PT-RAT-3DS,Air Ratchet Wrench - 3/8in Drive Standard,Power Tools,F-05-02,5,Low stock,2765.52,13827.60,2026-04-13
+HT-PLR-LV1,Pliers - Locking Vise-Grip 10in,Hand Tools,G-08-08,22,Reserved,844.54,18579.88,2026-09-08
+DE-IRT-TIC5,Thermometer - Thermal Imaging Camera,Diagnostic & Electrical,G-09-06,184,In stock,18119.38,3333965.92,2026-02-15
+PT-RAT-1DM,Air Ratchet Wrench - 1/4in Drive Mini,Power Tools,D-09-02,130,In stock,2175.78,282851.40,2026-07-28
+SE-WSH-BPW31,Parts Washer - Benchtop Parts Washer 3.5 Gal,Lifting & Shop Equipment,B-02-04,3,Low stock,11047.74,33143.22,2026-01-24
+DE-IRT-TIC6,Thermometer - Thermal Imaging Camera,Diagnostic & Electrical,G-06-07,4,Low stock,6782.85,27131.40,2026-09-19
+SE-PRS-FS1T,Shop Press - Floor Standing 12 Ton,Lifting & Shop Equipment,B-05-06,158,In stock,9964.14,1574334.12,2026-01-29
+SM-SCK-SPS2,Socket Specialty - Spark Plug Socket 21mm,Specialty Mechanic Tools,C-08-07,177,In stock,647.56,114618.12,2026-05-16
+SM-THR-HKM6,Thread Repair - Helicoil Kit M10x1.5,Specialty Mechanic Tools,H-02-04,102,In stock,487.19,49693.38,2026-05-21
+SE-ENG-ES12,Engine Crane & Stand - Engine Stand 1000lbs,Lifting & Shop Equipment,G-09-05,1,Low stock,20734.58,20734.58,2026-03-07
+DE-IRT-TIC7,Thermometer - Thermal Imaging Camera,Diagnostic & Electrical,H-08-03,62,In stock,7868.40,487840.80,2026-07-09
+SE-RMP-RWCP3,Shop Ramps & Chocks - Rubber Wheel Chocks Pair,Lifting & Shop Equipment,A-07-03,50,In stock,612.14,30607.00,2026-01-09
+WS-OIL-S141,Engine Oil - Semi-Synthetic 10W-40 4L,Workshop Supplies & Fluids,A-06-08,265,In stock,2341.59,620521.35,2026-01-10
+SM-OFR-PTFW1,Oil Filter Tool - Pliers Type Filter Wrench,Specialty Mechanic Tools,G-03-01,94,In stock,1471.56,138326.64,2026-04-13
+PT-IMP-C311,Impact Wrench - Compact 3/8in 12V,Power Tools,G-06-07,174,In stock,8482.75,1475998.50,2026-09-15
+SE-WSH-BPW32,Parts Washer - Benchtop Parts Washer 3.5 Gal,Lifting & Shop Equipment,A-09-08,8,Inspection,10640.16,85121.28,2026-02-23
+DE-GST-FIPK1,Pressure Gauge Set - Fuel Injection Pressure Kit,Diagnostic & Electrical,A-04-03,110,In stock,3116.24,342786.40,2026-05-06
+SM-BRK-CPP,Brake Tool - Caliper Piston Press,Specialty Mechanic Tools,A-01-04,120,In stock,596.86,71623.20,2026-01-04
+DE-MMT-AUAU1,Multimeter - Automotive Auto-Ranging,Diagnostic & Electrical,F-05-01,59,In stock,1306.27,77069.93,2026-09-10
+HT-PWR-18IN,Pipe Wrench - 18in,Hand Tools,B-01-03,37,In stock,786.65,29106.05,2026-03-12
+SE-WSH-BPW33,Parts Washer - Benchtop Parts Washer 3.5 Gal,Lifting & Shop Equipment,H-06-05,91,In stock,7442.84,677298.44,2026-08-19
+SE-JCK-HDS31,Floor Jack - Heavy Duty Steel 3.5 Ton,Lifting & Shop Equipment,H-04-05,103,In stock,9516.73,980223.19,2026-03-28
+PT-CUT-EL5I,Cut-Off Tool - Electric 5in,Power Tools,C-05-04,9,Reserved,1842.49,16582.41,2026-09-09
+HT-SCK-DI1,Socket Set - Deep Impact 1/2in,Hand Tools,B-05-09,229,In stock,3347.60,766600.40,2026-07-08
+SM-SCK-SPS1,Socket Specialty - Spark Plug Socket 16mm,Specialty Mechanic Tools,D-07-03,69,In stock,454.15,31336.35,2026-09-08
+HT-HEX-TH8,Hex & Torx Keys - T-Handle Hex 8pc,Hand Tools,G-08-09,148,In stock,704.93,104329.64,2026-06-10
+HT-PLR-LV11,Pliers - Locking Vise-Grip 10in,Hand Tools,B-02-09,183,In stock,927.66,169761.78,2026-07-22
+SE-PAN-PFE91,Oil Drain & Extractor - Pneumatic Fluid Extractor 9L,Lifting & Shop Equipment,F-08-07,5,Low stock,8101.30,40506.50,2026-04-11
+DE-CAM-WSA1,Inspection Camera - Wireless Scope Android/iOS,Diagnostic & Electrical,C-01-03,248,In stock,2364.72,586450.56,2026-07-12
+DE-MMT-TRCM,Multimeter - True RMS Clamp Meter,Diagnostic & Electrical,G-05-08,92,In stock,4786.16,440326.72,2026-03-29
+SM-OFR-SWHD,Oil Filter Tool - Strap Wrench Heavy Duty,Specialty Mechanic Tools,D-09-03,2,Low stock,244.18,488.36,2026-03-21
+WS-FLD-D4BF1,Automotive Fluid - DOT 4 Brake Fluid 1L,Workshop Supplies & Fluids,G-06-04,98,In stock,690.65,67683.70,2026-04-25
+SE-JCK-HDS32,Floor Jack - Heavy Duty Steel 3.5 Ton,Lifting & Shop Equipment,G-08-07,76,In stock,2610.86,198425.36,2026-09-24
+SM-THR-TADS2,Thread Repair - Tap and Die Set 40pc,Specialty Mechanic Tools,F-08-06,76,In stock,480.20,36495.20,2026-01-28
+HT-TRQ-3810,Torque Wrench - 3/8in 10-60Nm,Hand Tools,E-08-07,106,In stock,6823.02,723240.12,2026-07-06
+WS-GRS-HTBG4,Grease & Lubricant - High Temp Bearing Grease 500g,Workshop Supplies & Fluids,F-09-03,86,In stock,742.78,63879.08,2026-07-22
+WS-OIL-DEO11,Engine Oil - Diesel Engine Oil 15W-40 6L,Workshop Supplies & Fluids,H-09-05,221,In stock,1163.81,257202.01,2026-02-25
+PT-AIR-34CO,Pneumatic Impact Gun - 3/4in Commercial,Power Tools,F-07-08,46,In stock,11099.16,510561.36,2026-01-22
+HT-SCK-3D2,Socket Set - 3/8in Drive 20pc,Hand Tools,H-06-04,216,In stock,1628.44,351743.04,2026-06-21
+PT-RAT-1DM1,Air Ratchet Wrench - 1/4in Drive Mini,Power Tools,E-01-03,217,In stock,2310.43,501363.31,2026-06-14
+HT-RTC-38DR1,Ratchet Handle - 3/8in Drive,Hand Tools,A-06-09,1,Low stock,1623.22,1623.22,2026-01-28
+SE-CRP-AHS1,Creepers & Seats - Adjustable Hydraulic Stool,Lifting & Shop Equipment,A-09-03,4,Low stock,3711.93,14847.72,2026-03-05
+PT-RAT-1DM2,Air Ratchet Wrench - 1/4in Drive Mini,Power Tools,E-03-05,228,In stock,2621.05,597599.40,2026-07-07
+HT-PCH-CCS4,Punch & Chisel - Cold Chisel Set 4pc,Hand Tools,B-03-09,2,Inspection,772.63,1545.26,2026-06-16
+DE-MMT-DPM,Multimeter - Digital Pocket Meter,Diagnostic & Electrical,B-08-05,27,In stock,2133.06,57592.62,2026-04-01
+DE-SCN-LDS,OBD2 Scanner - Live Data Scanner,Diagnostic & Electrical,E-06-08,1,Low stock,3679.67,3679.67,2026-03-02
+HT-ADW-15IN1,Adjustable Wrench - 15in,Hand Tools,B-05-03,143,In stock,1105.01,158016.43,2026-09-19
+PT-RAT-1DM3,Air Ratchet Wrench - 1/4in Drive Mini,Power Tools,C-07-04,7,Reserved,3567.09,24969.63,2026-09-18
+SE-BTL-H1T2,Bottle Jack - Hydraulic 10 Ton,Lifting & Shop Equipment,B-06-08,73,In stock,3868.33,282388.09,2026-04-05
+PT-DIE-CO181,Die Grinder - Cordless 18V,Power Tools,F-08-08,5,Low stock,2217.84,11089.20,2026-09-06
+SE-JCK-HDS33,Floor Jack - Heavy Duty Steel 3.5 Ton,Lifting & Shop Equipment,D-06-06,102,In stock,8832.41,900905.82,2026-07-18
+SM-THR-HKM7,Thread Repair - Helicoil Kit M10x1.5,Specialty Mechanic Tools,F-06-08,86,In stock,1238.91,106546.26,2026-08-09
+DE-IRT-ILG55,Thermometer - Infrared Laser Gun -50 to 550C,Diagnostic & Electrical,D-09-03,265,In stock,12059.18,3195682.70,2026-05-11
+WS-CNS-MWGL1,Shop Consumables - Mechanic Work Gloves Large,Workshop Supplies & Fluids,B-02-01,254,In stock,612.19,155496.26,2026-04-25
+SM-BRK-BSSP,Brake Tool - Brake Shoe Spring Pliers,Specialty Mechanic Tools,A-03-04,189,In stock,2586.70,488886.30,2026-05-26
+SM-SUS-SSCH,Suspension & Steering - Strut Spring Compressor Heavy Duty,Specialty Mechanic Tools,A-06-05,226,In stock,4017.14,907873.64,2026-06-22
+SE-ENG-ES1R1,Engine Crane & Stand - Engine Stand 1500lbs Rotating,Lifting & Shop Equipment,H-06-05,253,In stock,8130.59,2057039.27,2026-03-27
+SE-RMP-PCR5,Shop Ramps & Chocks - Polymer Car Ramps 5 Ton Pair,Lifting & Shop Equipment,D-06-01,220,In stock,2540.73,558960.60,2026-05-11
+DE-GST-VFPT1,Pressure Gauge Set - Vacuum & Fuel Pump Tester,Diagnostic & Electrical,F-08-03,2,Low stock,2852.06,5704.12,2026-04-02
+HT-PWR-24IN,Pipe Wrench - 24in,Hand Tools,F-03-08,2,Low stock,1407.76,2815.52,2026-07-19
+WS-OIL-M24,Engine Oil - Mineral 20W-50 4L,Workshop Supplies & Fluids,E-05-03,210,In stock,1646.72,345811.20,2026-02-10
+SE-ENG-ES1R2,Engine Crane & Stand - Engine Stand 1500lbs Rotating,Lifting & Shop Equipment,A-06-01,104,In stock,5459.02,567738.08,2026-05-08
+SM-SUS-TRER1,Suspension & Steering - Tie Rod End Remover,Specialty Mechanic Tools,F-06-03,287,In stock,3511.13,1007694.31,2026-07-29
+SM-PLR-3GP6,Puller Set - 3-Jaw Gear Puller 6in,Specialty Mechanic Tools,G-03-06,11,Inspection,4424.57,48670.27,2026-02-15
+HT-WRN-6MM,Combination Wrench - 6mm,Hand Tools,F-02-04,270,In stock,1979.26,534400.20,2026-01-12
+HT-SCK-TBS,Socket Set - Torx Bit Set,Hand Tools,G-03-02,21,In stock,3814.68,80108.28,2026-01-09
+HT-HEX-TH81,Hex & Torx Keys - T-Handle Hex 8pc,Hand Tools,D-03-07,281,In stock,1207.97,339439.57,2026-06-09
+PT-HTG-16ST2,Heat Gun - 1600W Standard,Power Tools,D-05-05,93,In stock,1044.70,97157.10,2026-05-17
+PT-AIR-ST12,Pneumatic Impact Gun - Stubby 1/2in,Power Tools,D-04-08,212,In stock,14986.67,3177174.04,2026-04-18
+PT-DIE-PNST,Die Grinder - Pneumatic Straight,Power Tools,F-06-09,240,In stock,3069.57,736696.80,2026-03-23
+HT-ADW-6IN1,Adjustable Wrench - 6in,Hand Tools,D-06-09,2,Low stock,922.87,1845.74,2026-06-03
+SE-PAN-ODP1,Oil Drain & Extractor - Oil Drain Pan 15L,Lifting & Shop Equipment,A-08-02,103,In stock,1396.31,143819.93,2026-01-19
+PT-DIE-PNAN,Die Grinder - Pneumatic Angle,Power Tools,G-05-01,4,Low stock,1722.97,6891.88,2026-08-02
+SM-BRK-VBBK2,Brake Tool - Vacuum Brake Bleeder Kit,Specialty Mechanic Tools,C-04-05,284,In stock,1823.23,517797.32,2026-03-02
+PT-CUT-C312,Cut-Off Tool - Cordless 3in 12V,Power Tools,A-04-02,205,In stock,3768.69,772581.45,2026-03-07
+WS-CNS-HCP3,Shop Consumables - Hand Cleaner Pumice 3.78L,Workshop Supplies & Fluids,G-02-08,43,In stock,580.20,24948.60,2026-05-31
+PT-DRL-1HD1,Cordless Drill - 18V Hammer Drill,Power Tools,C-04-05,271,In stock,8613.13,2334158.23,2026-08-29
+HT-SDR-M6S,Screwdriver - Magnetic 6pc Set,Hand Tools,F-04-09,92,In stock,657.58,60497.36,2026-01-18
+WS-GRS-AP21,Grease & Lubricant - Anti-Seize Paste 200g,Workshop Supplies & Fluids,A-09-08,3,Inspection,359.30,1077.90,2026-05-30
+DE-CAM-DLE43,Inspection Camera - Dual Lens Endoscope 4.3in,Diagnostic & Electrical,F-04-09,5,Low stock,4171.04,20855.20,2026-07-04
+WS-GSK-TMB52,Gasket & Sealant - Threadlocker Medium Blue 50ml,Workshop Supplies & Fluids,A-04-02,1,Low stock,360.24,360.24,2026-08-23
+WS-SPR-DHD51,Aerosol Spray - Degreaser Heavy Duty 500ml,Workshop Supplies & Fluids,B-05-03,20,Reserved,231.16,4623.20,2026-01-01
+HT-TRQ-38101,Torque Wrench - 3/8in 10-60Nm,Hand Tools,A-05-08,4,Low stock,2228.67,8914.68,2026-05-13
+WS-OIL-DEO12,Engine Oil - Diesel Engine Oil 15W-40 6L,Workshop Supplies & Fluids,G-05-02,252,In stock,2522.58,635690.16,2026-02-06
+SM-PLR-BHBP2,Puller Set - Blind Hole Bearing Puller,Specialty Mechanic Tools,A-09-01,3,Reserved,2893.09,8679.27,2026-02-01
+HT-PCH-BP11,Punch & Chisel - Brass Punch 1/2in,Hand Tools,D-09-02,11,Reserved,826.59,9092.49,2026-07-13
+HT-PWR-10IN1,Pipe Wrench - 10in,Hand Tools,D-02-02,14,Reserved,2187.51,30625.14,2026-03-10
+HT-WRN-10MM,Combination Wrench - 10mm,Hand Tools,H-09-04,34,In stock,975.08,33152.72,2026-03-26
+WS-OIL-DEO13,Engine Oil - Diesel Engine Oil 15W-40 6L,Workshop Supplies & Fluids,D-06-03,45,In stock,2356.88,106059.60,2026-06-19
+PT-AIR-1TI,Pneumatic Impact Gun - 1in Truck Impact,Power Tools,C-07-05,132,In stock,5609.09,740399.88,2026-07-15
+WS-GSK-THSR1,Gasket & Sealant - Threadlocker High Strength Red 50ml,Workshop Supplies & Fluids,F-03-05,1,Low stock,533.33,533.33,2026-09-26
+DE-TST-BFTP2,Tester - Brake Fluid Tester Pen,Diagnostic & Electrical,A-02-03,275,In stock,1152.49,316934.75,2026-06-20
+SM-PLR-BHBP3,Puller Set - Blind Hole Bearing Puller,Specialty Mechanic Tools,E-06-06,3,Low stock,3297.28,9891.84,2026-09-25
+DE-GST-FIPK2,Pressure Gauge Set - Fuel Injection Pressure Kit,Diagnostic & Electrical,E-01-07,154,In stock,5214.41,803019.14,2026-08-11
+HT-HMR-RM12,Hammer - Rubber Mallet 16oz,Hand Tools,F-01-04,191,In stock,1387.09,264934.19,2026-02-11
+PT-DRL-1HD2,Cordless Drill - 18V Hammer Drill,Power Tools,B-09-09,161,In stock,7506.21,1208499.81,2026-08-01
+WS-GRS-LGT41,Grease & Lubricant - Lithium Grease Tube 400g,Workshop Supplies & Fluids,A-09-05,141,In stock,548.53,77342.73,2026-08-27
+SM-OFR-CWS11,Oil Filter Tool - Cap Wrench Set 14pc,Specialty Mechanic Tools,F-08-04,155,In stock,581.46,90126.30,2026-08-19
+SE-PAN-PFE92,Oil Drain & Extractor - Pneumatic Fluid Extractor 9L,Lifting & Shop Equipment,F-01-09,5,Low stock,5637.74,28188.70,2026-02-07
+SM-OFR-CWS12,Oil Filter Tool - Cap Wrench Set 14pc,Specialty Mechanic Tools,A-09-05,3,Low stock,1428.05,4284.15,2026-09-24
+SE-BTL-H1T3,Bottle Jack - Hydraulic 10 Ton,Lifting & Shop Equipment,F-04-05,38,In stock,6092.65,231520.70,2026-06-10
+SE-CRP-PMC4,Creepers & Seats - Plastic Molded Creeper 40in,Lifting & Shop Equipment,D-05-04,199,In stock,3735.06,743276.94,2026-07-26
+HT-HMR-BP1,Hammer - Ball Peen 16oz,Hand Tools,E-08-05,14,Reserved,1425.23,19953.22,2026-08-13
+SM-OFR-PTFW2,Oil Filter Tool - Pliers Type Filter Wrench,Specialty Mechanic Tools,F-01-05,213,In stock,457.01,97343.13,2026-06-01
+HT-SCK-3D21,Socket Set - 3/8in Drive 20pc,Hand Tools,C-04-01,3,Reserved,4476.20,13428.60,2026-09-14
+DE-CAM-DLE44,Inspection Camera - Dual Lens Endoscope 4.3in,Diagnostic & Electrical,A-03-05,10,Inspection,2575.00,25750.00,2026-03-22
+WS-SPR-CCS4,Aerosol Spray - Contact Cleaner Spray 450ml,Workshop Supplies & Fluids,G-07-08,4,Low stock,327.91,1311.64,2026-02-02
+SE-PAN-ODP11,Oil Drain & Extractor - Oil Drain Pan 15L,Lifting & Shop Equipment,B-05-06,221,In stock,4366.56,965009.76,2026-09-08
+SM-SUS-SSCH1,Suspension & Steering - Strut Spring Compressor Heavy Duty,Specialty Mechanic Tools,A-02-03,234,In stock,1773.54,415008.36,2026-07-10
+DE-IRT-TIC8,Thermometer - Thermal Imaging Camera,Diagnostic & Electrical,G-02-06,225,In stock,12166.27,2737410.75,2026-01-31
+SM-ENG-PRP3,Engine Specialty - Piston Ring Pliers,Specialty Mechanic Tools,C-04-03,215,In stock,1595.39,343008.85,2026-05-14
+DE-CAM-DLE45,Inspection Camera - Dual Lens Endoscope 4.3in,Diagnostic & Electrical,C-05-07,281,In stock,2231.51,627054.31,2026-07-28
+WS-SPR-BCS53,Aerosol Spray - Brake Cleaner Spray 500ml,Workshop Supplies & Fluids,H-02-05,51,In stock,340.57,17369.07,2026-02-14
+SE-STD-3TSP1,Jack Stands - 3 Ton Steel Pair,Lifting & Shop Equipment,F-07-09,182,In stock,4751.33,864742.06,2026-06-24
+HT-PWR-10IN2,Pipe Wrench - 10in,Hand Tools,E-03-04,274,In stock,1297.42,355493.08,2026-06-04
+DE-GST-VFPT2,Pressure Gauge Set - Vacuum & Fuel Pump Tester,Diagnostic & Electrical,H-04-03,212,In stock,1708.86,362278.32,2026-04-02
+SM-BRK-VBBK3,Brake Tool - Vacuum Brake Bleeder Kit,Specialty Mechanic Tools,D-05-09,261,In stock,864.72,225691.92,2026-06-10
+HT-WSC-HDCC1,Wire Tool - Heavy Duty Cable Cutter,Hand Tools,E-01-09,1,Low stock,667.40,667.40,2026-04-17
+SE-RMP-PCR51,Shop Ramps & Chocks - Polymer Car Ramps 5 Ton Pair,Lifting & Shop Equipment,G-01-09,171,In stock,1377.94,235627.74,2026-02-08
+DE-GST-FIPK3,Pressure Gauge Set - Fuel Injection Pressure Kit,Diagnostic & Electrical,E-07-02,153,In stock,1975.63,302271.39,2026-03-11
+SM-SUS-PAP,Suspension & Steering - Pitman Arm Puller,Specialty Mechanic Tools,D-04-08,244,In stock,1058.04,258161.76,2026-05-09
+HT-ADW-8IN,Adjustable Wrench - 8in,Hand Tools,D-05-07,227,In stock,1038.22,235675.94,2026-03-30
+SM-BRK-PBB,Brake Tool - Pneumatic Brake Bleeder,Specialty Mechanic Tools,B-05-09,9,Reserved,3304.89,29744.01,2026-06-03
+PT-DIE-EC6,Die Grinder - Electric Corded 6mm,Power Tools,C-06-05,19,Reserved,3611.67,68621.73,2026-09-18
+HT-HEX-TTS,Hex & Torx Keys - Torx T10-T50 Set,Hand Tools,D-06-02,9,Inspection,936.65,8429.85,2026-05-30
+HT-PWR-24IN1,Pipe Wrench - 24in,Hand Tools,A-09-05,4,Low stock,1158.87,4635.48,2026-03-11
+DE-TMG-DTL,Engine Timing & Strobe - Digital Timing Light,Diagnostic & Electrical,B-08-03,3,Low stock,1691.62,5074.86,2026-07-22
+DE-SCN-CRB3,OBD2 Scanner - Code Reader Basic,Diagnostic & Electrical,C-03-05,213,In stock,19940.78,4247386.14,2026-07-21
+SM-PLR-BHBP4,Puller Set - Blind Hole Bearing Puller,Specialty Mechanic Tools,A-07-07,22,Reserved,1961.22,43146.84,2026-04-01
+SE-BTL-H4T2,Bottle Jack - Hydraulic 4 Ton,Lifting & Shop Equipment,F-01-03,291,In stock,8867.95,2580573.45,2026-07-01
+WS-GSK-TMB53,Gasket & Sealant - Threadlocker Medium Blue 50ml,Workshop Supplies & Fluids,H-09-07,62,In stock,433.54,26879.48,2026-09-19
+PT-IMP-C111,Impact Wrench - Cordless 18V 1/2in,Power Tools,A-08-07,246,In stock,14263.04,3508707.84,2026-06-09
+SE-PRS-FS1T1,Shop Press - Floor Standing 12 Ton,Lifting & Shop Equipment,C-02-03,106,In stock,23910.79,2534543.74,2026-04-16
+DE-CAM-WSA2,Inspection Camera - Wireless Scope Android/iOS,Diagnostic & Electrical,B-08-09,102,In stock,4802.56,489861.12,2026-07-24
+WS-SPR-POS4,Aerosol Spray - Penetrating Oil Spray 400ml,Workshop Supplies & Fluids,C-02-05,282,In stock,294.91,83164.62,2026-04-23
+PT-CMP-SO52,Air Compressor - Silent Oil-Free 50L,Power Tools,H-05-04,3,Low stock,13081.37,39244.11,2026-01-02
+WS-GRS-LGT42,Grease & Lubricant - Lithium Grease Tube 400g,Workshop Supplies & Fluids,E-07-01,240,In stock,698.63,167671.20,2026-06-16
+PT-DRL-1HD3,Cordless Drill - 18V Hammer Drill,Power Tools,D-06-03,149,In stock,5947.69,886205.81,2026-09-13
+DE-TST-SPGG1,Tester - Spark Plug Gap Gauge,Diagnostic & Electrical,E-01-04,11,Inspection,468.73,5156.03,2026-07-04
+SM-THR-HKM8,Thread Repair - Helicoil Kit M8x1.25,Specialty Mechanic Tools,G-08-05,5,Low stock,2473.48,12367.40,2026-02-14
+SE-JCK-LP3T1,Floor Jack - Low Profile 3 Ton,Lifting & Shop Equipment,H-01-03,112,In stock,8814.53,987227.36,2026-08-15
+PT-IMP-C2HT,Impact Wrench - Cordless 20V High Torque,Power Tools,G-05-01,226,In stock,8424.35,1903903.10,2026-01-04
+DE-GST-VFPT3,Pressure Gauge Set - Vacuum & Fuel Pump Tester,Diagnostic & Electrical,H-01-01,73,In stock,5249.77,383233.21,2026-04-22
+WS-CNS-MWGL2,Shop Consumables - Mechanic Work Gloves Large,Workshop Supplies & Fluids,H-04-02,137,In stock,614.41,84174.17,2026-04-05
+DE-GST-RPT11,Pressure Gauge Set - Radiator Pressure Tester 14pc,Diagnostic & Electrical,C-04-08,256,In stock,4878.31,1248847.36,2026-01-14
+SM-OFR-3FW1,Oil Filter Tool - 3-Jaw Filter Wrench,Specialty Mechanic Tools,F-09-02,9,Inspection,1096.55,9868.95,2026-04-26
+PT-POL-DAO6,Polisher & Buffer - Dual Action Orbital 6in,Power Tools,D-07-05,267,In stock,8224.02,2195813.34,2026-04-26
+SE-RMP-HDSR,Shop Ramps & Chocks - Heavy Duty Steel Ramps Pair,Lifting & Shop Equipment,B-03-06,163,In stock,1705.61,278014.43,2026-09-08
+PT-POL-R711,Polisher & Buffer - Rotary 7in 1200W,Power Tools,E-03-02,101,In stock,4356.50,440006.50,2026-02-22
+DE-MMT-DPM1,Multimeter - Digital Pocket Meter,Diagnostic & Electrical,F-01-04,262,In stock,2173.08,569346.96,2026-08-17
+WS-SPR-CC41,Aerosol Spray - Carburetor Cleaner 450ml,Workshop Supplies & Fluids,G-06-07,59,In stock,370.80,21877.20,2026-09-18
+WS-SPR-DHD52,Aerosol Spray - Degreaser Heavy Duty 500ml,Workshop Supplies & Fluids,C-07-09,5,Low stock,331.60,1658.00,2026-03-22
+SM-ENG-VSC2,Engine Specialty - Valve Spring Compressor,Specialty Mechanic Tools,H-06-06,34,In stock,2730.17,92825.78,2026-02-18
+PT-AIR-ST121,Pneumatic Impact Gun - Stubby 1/2in,Power Tools,A-06-04,214,In stock,8179.63,1750440.82,2026-03-03
+SE-PAN-ODP12,Oil Drain & Extractor - Oil Drain Pan 15L,Lifting & Shop Equipment,F-07-01,152,In stock,7972.05,1211751.60,2026-08-20
+SM-BRK-BSSP1,Brake Tool - Brake Shoe Spring Pliers,Specialty Mechanic Tools,F-09-01,75,In stock,1721.64,129123.00,2026-08-21
+WS-GRS-LGT43,Grease & Lubricant - Lithium Grease Tube 400g,Workshop Supplies & Fluids,C-04-07,79,In stock,287.83,22738.57,2026-07-19
+DE-TMG-ISL1,Engine Timing & Strobe - Inductive Strobe Light,Diagnostic & Electrical,F-05-06,107,In stock,3327.37,356028.59,2026-05-07
+SE-PRS-FS1T2,Shop Press - Floor Standing 12 Ton,Lifting & Shop Equipment,D-06-01,183,In stock,20425.46,3737859.18,2026-09-10
+SE-CRP-PMC3,Creepers & Seats - Padded Metal Creeper 36in,Lifting & Shop Equipment,F-04-01,134,In stock,2845.33,381274.22,2026-07-19
+WS-FLD-D4BF2,Automotive Fluid - DOT 4 Brake Fluid 1L,Workshop Supplies & Fluids,E-09-08,3,Low stock,825.82,2477.46,2026-02-18
+SM-OFR-3FW2,Oil Filter Tool - 3-Jaw Filter Wrench,Specialty Mechanic Tools,C-07-01,2,Low stock,1571.98,3143.96,2026-02-20
+SE-RMP-HDSR1,Shop Ramps & Chocks - Heavy Duty Steel Ramps Pair,Lifting & Shop Equipment,D-09-03,18,In stock,4392.00,79056.00,2026-02-27
+DE-MMT-DPM2,Multimeter - Digital Pocket Meter,Diagnostic & Electrical,A-03-04,261,In stock,899.08,234659.88,2026-08-28
+SM-THR-HKM9,Thread Repair - Helicoil Kit M10x1.5,Specialty Mechanic Tools,B-01-06,5,Inspection,1170.95,5854.75,2026-08-21
+PT-POL-DAO61,Polisher & Buffer - Dual Action Orbital 6in,Power Tools,C-01-01,4,Low stock,4893.60,19574.40,2026-07-11
+DE-TMG-ISL2,Engine Timing & Strobe - Inductive Strobe Light,Diagnostic & Electrical,B-04-07,181,In stock,2920.36,528585.16,2026-08-14
+DE-IRT-TIC9,Thermometer - Thermal Imaging Camera,Diagnostic & Electrical,A-06-09,35,In stock,3122.28,109279.80,2026-02-13
+PT-IMP-C2HT1,Impact Wrench - Cordless 20V High Torque,Power Tools,H-05-09,17,Reserved,7778.07,132227.19,2026-08-25
+PT-POL-DAO62,Polisher & Buffer - Dual Action Orbital 6in,Power Tools,H-07-05,233,In stock,7061.39,1645303.87,2026-09-04
+HT-PLR-CIIN,Pliers - Circlip Internal,Hand Tools,G-09-02,154,In stock,784.60,120828.40,2026-02-20
+SM-ENG-PRC41,Engine Specialty - Piston Ring Compressor 4in,Specialty Mechanic Tools,F-09-06,122,In stock,2783.52,339589.44,2026-08-28
+DE-CAM-DLE46,Inspection Camera - Dual Lens Endoscope 4.3in,Diagnostic & Electrical,H-09-01,198,In stock,6838.44,1354011.12,2026-01-06
+HT-ADW-12IN,Adjustable Wrench - 12in,Hand Tools,G-09-04,3,Low stock,384.91,1154.73,2026-01-16
+SE-RMP-HDSR2,Shop Ramps & Chocks - Heavy Duty Steel Ramps Pair,Lifting & Shop Equipment,E-05-08,7,Inspection,2315.75,16210.25,2026-01-19
+DE-MMT-TRCM1,Multimeter - True RMS Clamp Meter,Diagnostic & Electrical,D-07-08,144,In stock,3833.09,551964.96,2026-01-08
+PT-DRL-1DK,Cordless Drill - 12V Driver Kit,Power Tools,F-05-06,259,In stock,2867.56,742698.04,2026-05-06
+SM-SUS-SSCH2,Suspension & Steering - Strut Spring Compressor Heavy Duty,Specialty Mechanic Tools,D-06-09,38,In stock,1414.98,53769.24,2026-08-30
+HT-HMR-RM13,Hammer - Rubber Mallet 16oz,Hand Tools,G-01-07,2,Low stock,1809.11,3618.22,2026-06-22
+HT-ADW-15IN2,Adjustable Wrench - 15in,Hand Tools,F-01-02,69,In stock,894.93,61750.17,2026-03-28
+WS-FLD-CF11,Automotive Fluid - CVT Fluid 1L,Workshop Supplies & Fluids,B-05-01,108,In stock,661.54,71446.32,2026-08-17
+WS-OIL-M241,Engine Oil - Mineral 20W-50 4L,Workshop Supplies & Fluids,D-07-08,268,In stock,2147.65,575570.20,2026-06-23
+WS-SPR-DHD53,Aerosol Spray - Degreaser Heavy Duty 500ml,Workshop Supplies & Fluids,E-01-07,149,In stock,308.22,45924.78,2026-03-07
+PT-GRN-5I111,Angle Grinder - 5in 1100W,Power Tools,E-02-03,133,In stock,6489.91,863158.03,2026-02-13
+SM-SUS-PAP1,Suspension & Steering - Pitman Arm Puller,Specialty Mechanic Tools,C-06-06,161,In stock,3541.68,570210.48,2026-02-15
+SE-STD-3TSP2,Jack Stands - 3 Ton Steel Pair,Lifting & Shop Equipment,E-08-08,188,In stock,3618.99,680370.12,2026-09-21
+HT-WSC-TCT,Wire Tool - Terminal Crimping Tool,Hand Tools,D-03-07,23,In stock,1808.29,41590.67,2026-09-17
+HT-WRN-12MM,Combination Wrench - 12mm,Hand Tools,G-01-04,3,Low stock,2301.63,6904.89,2026-09-20
+SE-PRS-HB1T1,Shop Press - Hydraulic Benchtop 10 Ton,Lifting & Shop Equipment,H-07-05,108,In stock,9096.14,982383.12,2026-09-09
+WS-CNS-MWGL3,Shop Consumables - Mechanic Work Gloves Large,Workshop Supplies & Fluids,G-04-06,172,In stock,1166.09,200567.48,2026-09-05
+SM-OFR-3FW3,Oil Filter Tool - 3-Jaw Filter Wrench,Specialty Mechanic Tools,A-06-01,66,In stock,1348.31,88988.46,2026-03-10
+PT-GRN-4575,Angle Grinder - 4.5in 750W,Power Tools,F-04-09,1,Low stock,4878.05,4878.05,2026-07-11
+DE-GST-OPTG2,Pressure Gauge Set - Oil Pressure Test Gauge,Diagnostic & Electrical,F-04-07,18,Reserved,1678.03,30204.54,2026-03-23
+SM-THR-TADS3,Thread Repair - Tap and Die Set 40pc,Specialty Mechanic Tools,A-05-02,8,Reserved,2740.65,21925.20,2026-05-17
+DE-IRT-ILG56,Thermometer - Infrared Laser Gun -50 to 550C,Diagnostic & Electrical,B-05-01,15,Reserved,4406.70,66100.50,2026-09-28
+SM-OFR-CWS13,Oil Filter Tool - Cap Wrench Set 14pc,Specialty Mechanic Tools,C-04-05,116,In stock,1489.62,172795.92,2026-08-16
+SE-JCK-HT2T2,Floor Jack - Hydraulic Trolley 2 Ton,Lifting & Shop Equipment,C-03-08,5,Reserved,11357.86,56789.30,2026-01-26
+WS-GRS-SGT13,Grease & Lubricant - Silicone Grease Tube 100g,Workshop Supplies & Fluids,E-02-01,20,In stock,689.86,13797.20,2026-06-21
+SM-THR-HKM10,Thread Repair - Helicoil Kit M8x1.25,Specialty Mechanic Tools,A-03-04,184,In stock,2391.40,440017.60,2026-09-10
+WS-CNS-STR51,Shop Consumables - Shop Towels Roll 55 Sheets,Workshop Supplies & Fluids,F-03-05,243,In stock,275.78,67014.54,2026-02-02
+PT-POL-DAO63,Polisher & Buffer - Dual Action Orbital 6in,Power Tools,C-06-01,60,In stock,7364.50,441870.00,2026-02-21
+HT-ADW-12IN1,Adjustable Wrench - 12in,Hand Tools,A-06-01,2,Low stock,886.10,1772.20,2026-04-17
+PT-DRL-2BC,Cordless Drill - 20V Brushless Combo,Power Tools,B-07-05,2,Low stock,8703.83,17407.66,2026-09-01
+HT-PLR-DC71,Pliers - Diagonal Cutting 7in,Hand Tools,E-02-04,289,In stock,392.60,113461.40,2026-02-25
+HT-WRN-10MM1,Combination Wrench - 10mm,Hand Tools,D-06-04,2,Low stock,1487.16,2974.32,2026-06-04
+PT-AIR-1TI1,Pneumatic Impact Gun - 1in Truck Impact,Power Tools,F-09-07,3,Low stock,6676.49,20029.47,2026-08-30
+PT-AIR-1HD,Pneumatic Impact Gun - 1/2in Heavy Duty,Power Tools,E-02-08,139,In stock,17605.08,2447106.12,2026-08-19
+WS-GSK-THSR2,Gasket & Sealant - Threadlocker High Strength Red 50ml,Workshop Supplies & Fluids,C-05-01,181,In stock,208.79,37790.99,2026-01-28
+SM-SCK-OSS22,Socket Specialty - Oxygen Sensor Socket 22mm,Specialty Mechanic Tools,B-03-06,12,Inspection,845.23,10142.76,2026-02-12
+HT-PLR-CIEX2,Pliers - Circlip External,Hand Tools,D-03-09,182,In stock,590.44,107460.08,2026-01-18
+HT-WSC-HDCC2,Wire Tool - Heavy Duty Cable Cutter,Hand Tools,F-04-02,69,In stock,1691.04,116681.76,2026-02-26
+HT-SCK-1D1,Socket Set - 1/4in Drive 12pc,Hand Tools,G-09-06,4,Low stock,4340.22,17360.88,2026-05-16
+DE-TST-SPGG2,Tester - Spark Plug Gap Gauge,Diagnostic & Electrical,A-08-07,11,Reserved,2180.19,23982.09,2026-06-19
+SE-JCK-LP3T2,Floor Jack - Low Profile 3 Ton,Lifting & Shop Equipment,C-07-09,289,In stock,4751.83,1373278.87,2026-06-04
+PT-CUT-C313,Cut-Off Tool - Cordless 3in 12V,Power Tools,H-05-03,67,In stock,4314.64,289080.88,2026-01-02
+SE-JCK-HT2T3,Floor Jack - Hydraulic Trolley 2 Ton,Lifting & Shop Equipment,H-04-09,149,In stock,9829.98,1464667.02,2026-03-07
+HT-ADW-6IN2,Adjustable Wrench - 6in,Hand Tools,G-06-06,47,In stock,985.18,46303.46,2026-01-12
+DE-TMG-DTL1,Engine Timing & Strobe - Digital Timing Light,Diagnostic & Electrical,H-02-04,1,Low stock,2241.97,2241.97,2026-02-23
+SM-SCK-WNIS3,Socket Specialty - Wheel Nut Impact Socket Set,Specialty Mechanic Tools,D-07-05,141,In stock,765.71,107965.11,2026-07-24
+SM-PLR-3GP61,Puller Set - 3-Jaw Gear Puller 6in,Specialty Mechanic Tools,F-08-04,31,In stock,791.15,24525.65,2026-07-15
+DE-SCN-PBD3,OBD2 Scanner - Professional Bluetooth Dongle,Diagnostic & Electrical,A-03-06,247,In stock,4092.09,1010746.23,2026-06-21
+PT-DIE-CO182,Die Grinder - Cordless 18V,Power Tools,A-07-08,46,In stock,2685.60,123537.60,2026-02-27
+HT-WRN-12SE,Combination Wrench - 12pc Set,Hand Tools,A-05-09,130,In stock,2161.46,280989.80,2026-09-13
+HT-WSC-WS8,Wire Tool - Wire Stripper 8in,Hand Tools,C-07-05,191,In stock,1425.86,272339.26,2026-09-12
+SM-SCK-SPS11,Socket Specialty - Spark Plug Socket 16mm,Specialty Mechanic Tools,B-06-01,260,In stock,242.60,63076.00,2026-08-28
+PT-GRN-5I112,Angle Grinder - 5in 1100W,Power Tools,D-06-03,5,Low stock,5488.10,27440.50,2026-01-29
+DE-TST-BFTP3,Tester - Brake Fluid Tester Pen,Diagnostic & Electrical,C-04-05,60,In stock,2237.69,134261.40,2026-02-16
+PT-CUT-PN3I1,Cut-Off Tool - Pneumatic 3in,Power Tools,F-04-06,94,In stock,1664.28,156442.32,2026-05-18
+WS-SPR-BCS54,Aerosol Spray - Brake Cleaner Spray 500ml,Workshop Supplies & Fluids,H-06-05,231,In stock,298.86,69036.66,2026-06-18
+WS-FLD-CF12,Automotive Fluid - CVT Fluid 1L,Workshop Supplies & Fluids,B-05-04,216,In stock,242.95,52477.20,2026-04-20
+PT-RAT-1DHD2,Air Ratchet Wrench - 1/2in Drive Heavy Duty,Power Tools,F-03-04,3,Low stock,4013.73,12041.19,2026-09-07
+SM-ENG-PRC42,Engine Specialty - Piston Ring Compressor 4in,Specialty Mechanic Tools,F-04-02,155,In stock,1894.03,293574.65,2026-05-31
+PT-GRN-45751,Angle Grinder - 4.5in 750W,Power Tools,B-06-06,254,In stock,5429.15,1379004.10,2026-06-13
+SE-PRS-FS1T3,Shop Press - Floor Standing 12 Ton,Lifting & Shop Equipment,A-04-06,44,In stock,24256.11,1067268.84,2026-05-07
+HT-TRQ-1220,Torque Wrench - 1/2in 20-210Nm,Hand Tools,B-09-02,183,In stock,4271.64,781710.12,2026-08-17
+DE-SCN-BST2,OBD2 Scanner - Bi-Directional Scan Tool,Diagnostic & Electrical,D-05-03,153,In stock,11874.37,1816778.61,2026-01-09
+DE-SCN-PBD4,OBD2 Scanner - Professional Bluetooth Dongle,Diagnostic & Electrical,H-03-07,189,In stock,17979.47,3398119.83,2026-07-26
+DE-TMG-DTL2,Engine Timing & Strobe - Digital Timing Light,Diagnostic & Electrical,F-09-06,1,Low stock,1711.58,1711.58,2026-06-21
+HT-SCK-3D22,Socket Set - 3/8in Drive 20pc,Hand Tools,G-07-01,28,In stock,4061.10,113710.80,2026-06-24
+SE-JCK-LP3T3,Floor Jack - Low Profile 3 Ton,Lifting & Shop Equipment,E-06-08,12,Reserved,10193.43,122321.16,2026-05-29
+SE-STD-1TCP2,Jack Stands - 12 Ton Commercial Pair,Lifting & Shop Equipment,F-08-02,7,Inspection,3654.34,25580.38,2026-03-07
+HT-TRQ-1452,Torque Wrench - 1/4in 5-25Nm,Hand Tools,F-02-03,72,In stock,4303.28,309836.16,2026-08-24
+SE-PRS-HB1T2,Shop Press - Hydraulic Benchtop 10 Ton,Lifting & Shop Equipment,B-02-02,183,In stock,13901.19,2543917.77,2026-08-14
+HT-TRQ-38102,Torque Wrench - 3/8in 10-60Nm,Hand Tools,E-05-06,215,In stock,6153.83,1323073.45,2026-04-10
+SM-SUS-SSCH3,Suspension & Steering - Strut Spring Compressor Heavy Duty,Specialty Mechanic Tools,G-06-02,232,In stock,2607.30,604893.60,2026-06-19
+SM-THR-HKM11,Thread Repair - Helicoil Kit M8x1.25,Specialty Mechanic Tools,E-03-03,269,In stock,1234.94,332198.86,2026-07-05
+SE-JCK-LP3T4,Floor Jack - Low Profile 3 Ton,Lifting & Shop Equipment,A-05-02,227,In stock,9384.27,2130229.29,2026-03-23
+PT-HTG-16ST3,Heat Gun - 1600W Standard,Power Tools,A-09-06,211,In stock,2300.72,485451.92,2026-05-01
+HT-SDR-FL65,Screwdriver - Flathead 6.5mm,Hand Tools,D-03-09,38,In stock,536.61,20391.18,2026-03-28
+DE-CAM-B181,Inspection Camera - Borescope 1080P 8mm,Diagnostic & Electrical,E-07-03,285,In stock,4939.65,1407800.25,2026-06-22
+WS-FLD-PSF5,Automotive Fluid - Power Steering Fluid 500ml,Workshop Supplies & Fluids,E-02-08,286,In stock,644.85,184427.10,2026-04-07
+SM-PLR-BHBP5,Puller Set - Blind Hole Bearing Puller,Specialty Mechanic Tools,C-03-05,5,Inspection,5695.12,28475.60,2026-03-13
+SE-CRP-PMC41,Creepers & Seats - Plastic Molded Creeper 40in,Lifting & Shop Equipment,F-06-05,50,In stock,1336.36,66818.00,2026-01-06
+WS-FLD-CF13,Automotive Fluid - CVT Fluid 1L,Workshop Supplies & Fluids,B-01-05,87,In stock,526.02,45763.74,2026-07-30
+PT-AIR-1TI2,Pneumatic Impact Gun - 1in Truck Impact,Power Tools,C-09-06,1,Low stock,16701.35,16701.35,2026-05-24
+PT-CUT-EL5I1,Cut-Off Tool - Electric 5in,Power Tools,H-02-09,177,In stock,3305.81,585128.37,2026-07-15
+DE-TST-BLT11,Tester - Battery Load Tester 100A,Diagnostic & Electrical,E-01-09,7,Inspection,729.68,5107.76,2026-05-24
+SM-ENG-PRC43,Engine Specialty - Piston Ring Compressor 4in,Specialty Mechanic Tools,B-08-04,151,In stock,2452.91,370389.41,2026-03-09
+PT-CMP-HD51,Air Compressor - Heavy Duty 5.5HP 100L,Power Tools,E-02-07,108,In stock,9645.90,1041757.20,2026-09-26
+SM-SUS-PAP2,Suspension & Steering - Pitman Arm Puller,Specialty Mechanic Tools,A-02-03,3,Low stock,3904.00,11712.00,2026-08-22
+HT-TRQ-12201,Torque Wrench - 1/2in 20-210Nm,Hand Tools,D-02-03,11,Inspection,3413.82,37552.02,2026-07-18
+SM-SUS-TRER2,Suspension & Steering - Tie Rod End Remover,Specialty Mechanic Tools,A-06-05,5,Low stock,2072.54,10362.70,2026-01-26
+SE-ENG-EH2T2,Engine Crane & Stand - Engine Hoist 2 Ton Foldable,Lifting & Shop Equipment,H-02-04,195,In stock,12167.46,2372654.70,2026-08-09
+DE-CAM-DLE47,Inspection Camera - Dual Lens Endoscope 4.3in,Diagnostic & Electrical,B-05-08,5,Low stock,2685.86,13429.30,2026-09-17
+SM-THR-HKM12,Thread Repair - Helicoil Kit M6x1.0,Specialty Mechanic Tools,D-04-05,24,Reserved,827.79,19866.96,2026-02-08
+SM-SUS-BJPK,Suspension & Steering - Ball Joint Press Kit,Specialty Mechanic Tools,E-02-03,21,In stock,3405.28,71510.88,2026-03-17
+DE-CAM-B182,Inspection Camera - Borescope 1080P 8mm,Diagnostic & Electrical,D-03-07,77,In stock,2093.18,161174.86,2026-03-21
+SM-BRK-CPP1,Brake Tool - Caliper Piston Press,Specialty Mechanic Tools,B-02-01,160,In stock,2378.18,380508.80,2026-01-06
+SM-OFR-CWS14,Oil Filter Tool - Cap Wrench Set 14pc,Specialty Mechanic Tools,D-07-06,159,In stock,299.57,47631.63,2026-05-26
+WS-GSK-THSR3,Gasket & Sealant - Threadlocker High Strength Red 50ml,Workshop Supplies & Fluids,H-04-05,5,Reserved,134.14,670.70,2026-07-17
+DE-GST-OPTG3,Pressure Gauge Set - Oil Pressure Test Gauge,Diagnostic & Electrical,B-04-03,130,In stock,5535.77,719650.10,2026-09-25
+DE-TST-BFTP4,Tester - Brake Fluid Tester Pen,Diagnostic & Electrical,D-04-08,1,Low stock,2840.15,2840.15,2026-06-14
+PT-IMP-C2HT2,Impact Wrench - Cordless 20V High Torque,Power Tools,B-01-06,110,In stock,7244.22,796864.20,2026-02-19
+SE-ENG-EH2T3,Engine Crane & Stand - Engine Hoist 2 Ton Foldable,Lifting & Shop Equipment,H-03-09,287,In stock,10594.83,3040716.21,2026-03-21
+HT-ADW-8IN1,Adjustable Wrench - 8in,Hand Tools,G-02-05,288,In stock,907.85,261460.80,2026-01-08
+HT-WSC-WS81,Wire Tool - Wire Stripper 8in,Hand Tools,G-01-04,188,In stock,549.26,103260.88,2026-08-26
+WS-CNS-HCP31,Shop Consumables - Hand Cleaner Pumice 3.78L,Workshop Supplies & Fluids,A-06-07,147,In stock,904.20,132917.40,2026-04-01
+SE-WSH-BPW34,Parts Washer - Benchtop Parts Washer 3.5 Gal,Lifting & Shop Equipment,H-01-01,228,In stock,7818.16,1782540.48,2026-05-13
+HT-HEX-TH82,Hex & Torx Keys - T-Handle Hex 8pc,Hand Tools,H-06-09,7,Inspection,1129.05,7903.35,2026-08-08
+SM-THR-HKM13,Thread Repair - Helicoil Kit M6x1.0,Specialty Mechanic Tools,G-05-05,6,Inspection,1076.29,6457.74,2026-02-13
+SM-SUS-SSCH4,Suspension & Steering - Strut Spring Compressor Heavy Duty,Specialty Mechanic Tools,D-05-09,197,In stock,976.97,192463.09,2026-07-30
+DE-CAM-WSA3,Inspection Camera - Wireless Scope Android/iOS,Diagnostic & Electrical,D-08-08,20,Reserved,6411.59,128231.80,2026-07-20
+HT-PCH-BP12,Punch & Chisel - Brass Punch 1/2in,Hand Tools,B-04-01,5,Low stock,624.80,3124.00,2026-04-12
+PT-HTG-2DTC1,Heat Gun - 2000W Digital Temp Control,Power Tools,H-07-09,100,In stock,1318.80,131880.00,2026-07-27
+PT-RAT-3DS1,Air Ratchet Wrench - 3/8in Drive Standard,Power Tools,A-03-03,212,In stock,3107.68,658828.16,2026-05-19
+HT-WSC-WS82,Wire Tool - Wire Stripper 8in,Hand Tools,F-02-07,5,Low stock,1577.83,7889.15,2026-02-13
+WS-FLD-ADV11,Automotive Fluid - ATF Dexron VI 1L,Workshop Supplies & Fluids,F-08-09,3,Low stock,700.06,2100.18,2026-05-19
+PT-CMP-DD222,Air Compressor - Direct Drive 2HP 24L,Power Tools,A-07-03,4,Low stock,13196.93,52787.72,2026-07-29
+SM-ENG-PRC3,Engine Specialty - Piston Ring Compressor 3in,Specialty Mechanic Tools,C-09-08,33,In stock,1023.08,33761.64,2026-03-30
+SE-BTL-H1T4,Bottle Jack - Hydraulic 10 Ton,Lifting & Shop Equipment,C-09-06,11,Reserved,4673.21,51405.31,2026-03-29
+SM-SCK-WNIS4,Socket Specialty - Wheel Nut Impact Socket Set,Specialty Mechanic Tools,F-03-07,286,In stock,1639.54,468908.44,2026-08-29
+HT-TRQ-DI122,Torque Wrench - Digital 1/2in,Hand Tools,E-06-07,1,Low stock,3571.69,3571.69,2026-09-08
+DE-TST-SPGG3,Tester - Spark Plug Gap Gauge,Diagnostic & Electrical,A-01-03,188,In stock,251.57,47295.16,2026-09-11
+PT-CUT-PN3I2,Cut-Off Tool - Pneumatic 3in,Power Tools,H-03-07,10,Reserved,3271.00,32710.00,2026-03-05
+HT-TRQ-14521,Torque Wrench - 1/4in 5-25Nm,Hand Tools,E-05-05,39,In stock,5149.39,200826.21,2026-09-06
+DE-IRT-TIC10,Thermometer - Thermal Imaging Camera,Diagnostic & Electrical,G-09-05,228,In stock,16061.49,3662019.72,2026-04-12
+HT-ADW-15IN3,Adjustable Wrench - 15in,Hand Tools,H-07-05,16,In stock,865.25,13844.00,2026-04-18
+DE-TMG-DTL3,Engine Timing & Strobe - Digital Timing Light,Diagnostic & Electrical,E-01-07,24,In stock,3186.67,76480.08,2026-06-04
+HT-HMR-RM14,Hammer - Rubber Mallet 16oz,Hand Tools,G-08-03,101,In stock,1336.75,135011.75,2026-05-31
+SE-CRP-PMC42,Creepers & Seats - Plastic Molded Creeper 40in,Lifting & Shop Equipment,G-01-08,4,Low stock,1640.09,6560.36,2026-04-01
+SE-STD-6THD2,Jack Stands - 6 Ton Heavy Duty Pair,Lifting & Shop Equipment,D-05-04,258,In stock,1701.08,438878.64,2026-05-10
+SE-PRS-HB1T3,Shop Press - Hydraulic Benchtop 10 Ton,Lifting & Shop Equipment,E-07-06,95,In stock,11208.63,1064819.85,2026-09-08
+SM-OFR-3FW4,Oil Filter Tool - 3-Jaw Filter Wrench,Specialty Mechanic Tools,B-02-06,2,Low stock,973.64,1947.28,2026-09-14
+DE-IRT-ILG57,Thermometer - Infrared Laser Gun -50 to 550C,Diagnostic & Electrical,E-01-07,7,Inspection,16829.64,117807.48,2026-05-13
+SM-THR-TADS4,Thread Repair - Tap and Die Set 40pc,Specialty Mechanic Tools,C-02-08,91,In stock,520.99,47410.09,2026-03-24
+PT-GRN-5I113,Angle Grinder - 5in 1100W,Power Tools,D-09-08,16,In stock,3405.68,54490.88,2026-05-13
+PT-RAT-3DS2,Air Ratchet Wrench - 3/8in Drive Standard,Power Tools,A-01-08,103,In stock,2373.70,244491.10,2026-02-28
+WS-SPR-BCS55,Aerosol Spray - Brake Cleaner Spray 500ml,Workshop Supplies & Fluids,B-02-05,97,In stock,191.04,18530.88,2026-06-01
+DE-TST-BLT12,Tester - Battery Load Tester 100A,Diagnostic & Electrical,G-07-04,2,Low stock,1415.82,2831.64,2026-03-15
+PT-GRN-4C11,Angle Grinder - 4.5in Cordless 18V,Power Tools,E-07-06,271,In stock,4267.66,1156535.86,2026-01-26
+HT-SCK-3D23,Socket Set - 3/8in Drive 20pc,Hand Tools,D-06-06,273,In stock,2683.00,732459.00,2026-01-28
+SE-CRP-PMC43,Creepers & Seats - Plastic Molded Creeper 40in,Lifting & Shop Equipment,C-01-03,180,In stock,1861.98,335156.40,2026-04-27
+SM-OFR-SWHD1,Oil Filter Tool - Strap Wrench Heavy Duty,Specialty Mechanic Tools,E-03-08,293,In stock,778.09,227980.37,2026-06-17
+WS-SPR-CCS41,Aerosol Spray - Contact Cleaner Spray 450ml,Workshop Supplies & Fluids,E-05-06,3,Low stock,289.40,868.20,2026-05-09
