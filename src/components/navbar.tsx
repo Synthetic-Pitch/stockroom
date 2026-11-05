@@ -6,6 +6,8 @@ import {
     Package,
     RotateCcw,
     RotateCcwClock,
+    ShieldCheck,
+    TrendingUp,
     Truck,
     User,
 } from "lucide-react";
@@ -24,6 +26,8 @@ const Navbar = () => {
         {id: "customers", label: "Customers", value: "", Icon: User, url: "/customers"},
         {id: "returns", label: "Returns", value: "6", Icon: RotateCcw, url: "/returns"},
         {id: "history", label: "History", value: "", Icon: RotateCcwClock, url: "/history"},
+        {id: "safety-stock", label: "Safety stock", value: "6", Icon: ShieldCheck, url: "/safety-stock"},
+        {id: "forecasting", label: "Demand forecast", value: "", Icon: TrendingUp, url: "/forecasting"},
     ];
 
     return (

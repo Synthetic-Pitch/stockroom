@@ -94,6 +94,20 @@ const searchResults: SearchResult[] = [
         path: "/history",
         terms: ["history", "audit", "events", "staff", "stock received", "order shipped", "sign-in"],
     },
+    {
+        title: "Safety stock policies",
+        section: "Planning",
+        description: "Set stock buffers, lead-time coverage, and reorder points for critical items.",
+        path: "/safety-stock",
+        terms: ["safety stock", "buffer", "reorder point", "coverage", "lead time", "risk"],
+    },
+    {
+        title: "Demand forecasting",
+        section: "Planning",
+        description: "Anticipate upcoming usage, compare scenarios, and prepare purchase recommendations.",
+        path: "/forecasting",
+        terms: ["forecast", "forecasting", "demand", "planning", "projection", "purchase recommendation"],
+    },
 ];
 
 const notifications: NotificationItem[] = [

@@ -9,6 +9,8 @@ import Customers from "./pages/Customers";
 import Returns from "./pages/Returns";
 import History from "./pages/History";
 import NotFound from "./pages/NotFound";
+import SafetyStock from "./pages/SafetyStock";
+import Forecasting from "./pages/Forecasting";
 
 function App() {
   
@@ -24,6 +26,8 @@ function App() {
         <Route path="/customers" element={<Customers/>}/>
         <Route path="/returns" element={<Returns/>}/>
         <Route path="/history" element={<History/>}/>
+        <Route path="/safety-stock" element={<SafetyStock/>}/>
+        <Route path="/forecasting" element={<Forecasting/>}/>
         <Route path="/*" element={<NotFound/>}/>
       </Routes>
     </>
